@@ -1,38 +1,37 @@
-# naverzine.co.kr 배포 확인
+# naverzine.co.kr 배포 (Vercel)
 
-## 현재 상태 (자동 점검 기준)
+`www.naverzine.co.kr` 응답 헤더에 **`x-vercel-error`** 가 보이면, 도메인은 **Vercel**에 연결된 상태입니다.  
+예전처럼 **GitHub에 push만** 하면 되려면, Vercel 프로젝트가 **이 저장소(`pumshelter`)** 와 연결돼 있어야 합니다. GitHub Pages 설정과는 별개입니다.
 
-1. **GitHub Actions** — `Deploy static site` 워크플로는 **GitHub Pages가 켜지지 않아** `deploy-pages` 단계에서 실패한 적이 있습니다.  
-   → [Settings → Pages](https://github.com/inchowon58-beep/pumshelter/settings/pages) 에서 한 번 설정이 필요합니다.
+## 저장소 설정
 
-2. **도메인 DNS** — `www.naverzine.co.kr` 이 Cloudflare IP로 연결되어 있고, 응답이 `NOT_FOUND`(Vercel 계열)로 나오면 **GitHub Pages와 연결되지 않은 상태**입니다.
+루트의 `vercel.json` 이 **빌드 결과 폴더를 `site/`** 로 지정합니다. (HTML은 `site/` 아래에 생성됨)
 
-## 권장: gh-pages 브랜치로 배포
+## Vercel에서 확인 (GitHub 설정 건드리지 않아도 됨)
 
-1. GitHub 저장소 **Settings → Pages**
-2. **Build and deployment → Source**: `Deploy from a branch`
-3. **Branch**: `gh-pages` / **Folder**: `/ (root)` → Save
-4. **Actions** 탭에서 `Publish site to gh-pages branch` 가 **초록색(성공)** 인지 확인
-5. 잠시 후 접속 테스트:
-   - `https://inchowon58-beep.github.io/pumshelter/` (저장소 Pages URL — Settings에 표시됨)
-6. **Custom domain**에 `www.naverzine.co.kr` 입력 후 GitHub가 안내하는 DNS 확인
+1. [Vercel Dashboard](https://vercel.com/dashboard) 로그인
+2. **naverzine** (또는 이 도메인이 붙어 있던) 프로젝트 선택
+3. **Settings → Git**  
+   - Repository가 `inchowon58-beep/pumshelter` 인지 확인  
+   - 다른 저장소면 **Connect Git Repository** 로 `pumshelter` 로 바꾸거나, 새 프로젝트로 이 repo import
+4. **Deployments** 탭  
+   - 최근 배포가 **Failed** 이면 로그 확인 (용량·경로 오류 등)
+5. 실패 시 **Redeploy** 또는 `main`에 push 한 번 더 (자동 배포)
 
-## DNS (GitHub Pages + www)
+## 도메인
 
-- **www** CNAME → `inchowon58-beep.github.io` (Cloudflare 사용 시 처음엔 **DNS only(회색 구름)** 권장)
-- 루트(`naverzine.co.kr`)는 호스팅 업체 안내대로 A 레코드 또는 www로 리다이렉트
+- **Settings → Domains** 에 `www.naverzine.co.kr` (및 필요 시 apex) 이 **이 프로젝트**에 붙어 있는지 확인
+- DNS는 Cloudflare → Vercel 구조로 두셔도 됩니다 (지금과 동일)
 
-Vercel·다른 호스팅에 같은 도메인이 연결돼 있으면 **해당 프로젝트 연결을 끊거나** DNS를 GitHub 쪽으로 바꿔야 합니다.
+## GitHub Pages (선택)
 
-## Actions 방식(선택)
+Vercel을 쓰지 않고 Pages만 쓸 때만 [Settings → Pages](https://github.com/inchowon58-beep/pumshelter/settings/pages) 에서 `gh-pages` 브랜치 / root 를 켭니다.
 
-Pages Source를 **GitHub Actions**로 두려면 Settings → Pages에서 Source를 `GitHub Actions`로 저장한 뒤, `Deploy static site` 워크플로를 **Re-run** 하세요.
-
-## 로컬 확인
+## 로컬
 
 ```powershell
 cd site
 python -m http.server 8891 --bind 127.0.0.1
 ```
 
-브라우저: http://127.0.0.1:8891
+http://127.0.0.1:8891
