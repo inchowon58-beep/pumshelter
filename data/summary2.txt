@@ -1,0 +1,12 @@
+health Counter({'건강함': 75, None: 3, '허리 디스크 · 무릎 연골 변형 (보호소에서 관리 중)': 1, '오른쪽 뒷다리 무릎 양성 종양 (양호한 상태)': 1, '식이성 알레르기 (식단 관리 중)': 1, '건강함 (관심받기 위한 헛짖음 있음)': 1, '부정교합 (생활에 지장 없음)': 1, '비만 관리 중 (식단 조절)': 1, '건강함 (식탐이 조금 있음)': 1, '간강함': 1, '건강합': 1, '건강': 1})
+intake Counter({'파양': 61, '구조': 27})
+species 40
+dup names 시루, 로키, 봄이, 초코, 마루, 나롱이
+HIDDEN
+- 단추 푸들 10살 6f6dde14-48c5-4e67-b743-9936b5858c87
+- 에르 장모치와와 6살 bb9d1ef0-0536-4fb2-9827-d01457d315c8
+- 치즈 코리안숏헤어 4살 76ccd010-bfd8-49b3-b9d7-9ef66271b686
+main https://cdn.sanity.io/images/58cgd16k/production/7c19e3bf79659c5ab4bfb448519f3efe4231f34e-3024x4032.jpg
+extra https://cdn.sanity.io/images/58cgd16k/production/91298078d5d47d70265b62ff1755219245ba131d-3024x4032.jpg same=False
+extra https://cdn.sanity.io/images/58cgd16k/production/f1acafa656b703ea3154b49020919f5776c5a093-3024x4032.jpg same=False
+extra https://cdn.sanity.io/images/58cgd16k/production/91298078d5d47d70265b62ff1755219245ba131d-3024x4032.jpg same=False

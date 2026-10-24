@@ -1,0 +1,7 @@
+home title 강아지보호소 품으로
+initial count 보이는 아이 85마리
+waiting 보이는 아이 26마리 visible 26
+adopted visible 59
+search 쫑이 쫑이
+gallery true -> true alt 쫑이 사진 2
+back true

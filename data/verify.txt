@@ -1,0 +1,8 @@
+html 87
+missing 0
+checks {'traits': True, 'facts': True, 'photos': True, 'no-current-on-story': True}
+home stats True
+board cards 85
+hidden leaks []
+first board names
+로키, 쫑이, 은비, 봄이, 마동석, 멜로, 찐이, 퍼비

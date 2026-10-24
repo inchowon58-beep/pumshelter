@@ -1,0 +1,4 @@
+480p 11921758 90.418 https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/tmdv_6c1d9fd4-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=66a5
+720p 18034879 90.418 https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/base_pathfinder_pf3448100_tmdv_6c1e6326-8bdd-11f1-9fdf-a036
+270p 5724915 90.418 https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/tmdv_6c1e1505-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=6865
+1080p 33625388 90.418 https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/base_pathfinder_pf3448100_tmdv_6c1eb147-8bdd-11f1-9fdf-a036

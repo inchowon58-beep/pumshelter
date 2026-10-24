@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>지역별 강아지파양 · 보호소 안내 | 강아지보호소 품으로</title>
+  <meta name="description" content="지역과 상담 단어를 고르면 해당 안내 페이지로 이동합니다.">
+  <link rel="canonical" href="https://www.naverzine.co.kr/k/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Song+Myung&amp;display=swap">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../index.html">
+      <img class="logo" src="../assets/logo.jpg" alt="강아지보호소 품으로" width="54" height="54" loading="eager">
+      <span><span class="brand-name">강아지보호소</span><span class="brand-sub">품으로</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="site-nav">
+      <a href="../index.html">홈</a>
+      <a href="../pets/index.html">입양하기</a>
+      <a href="../index.html#rehome">파양 입소</a>
+      <a href="../index.html#story">이렇게 지내요</a>
+    </nav>
+  </div>
+</header>
+<script>
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    const open = navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+  });
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.setAttribute("aria-label", "메뉴 열기");
+    });
+  });
+}
+</script>
+<main class="wrap board-hero">
+  <p class="eyebrow">REGION</p>
+  <h1>지역별 안내</h1>
+  <p class="lede">지역을 누르면 강아지파양, 보호소, 입양보내기처럼 상담 단어별 글이 있습니다.</p>
+  <div class="place-links"><a href="화성/">화성</a><a href="남양주/">남양주</a><a href="송파/">송파</a><a href="인천/">인천</a><a href="평택/">평택</a><a href="강남구/">강남구</a><a href="강남/">강남</a><a href="김해/">김해</a><a href="대구/">대구</a><a href="달서구/">달서구</a><a href="시흥/">시흥</a><a href="파주/">파주</a><a href="노원/">노원</a><a href="부평/">부평</a><a href="덕양구/">덕양구</a><a href="고양시/">고양시</a><a href="제주도/">제주도</a><a href="제주/">제주</a><a href="남동구/">남동구</a><a href="김포/">김포</a><a href="관악구/">관악구</a><a href="분당/">분당</a><a href="은평구/">은평구</a><a href="강동구/">강동구</a><a href="강동/">강동</a><a href="성남/">성남</a><a href="대전/">대전</a><a href="의정부/">의정부</a><a href="용인/">용인</a><a href="기흥/">기흥</a><a href="양천구/">양천구</a><a href="성북/">성북</a><a href="성북구/">성북구</a><a href="광주/">광주</a><a href="미추홀구/">미추홀구</a><a href="수성구/">수성구</a><a href="서초/">서초</a><a href="서초구/">서초구</a><a href="구미/">구미</a><a href="연수구/">연수구</a><a href="광산구/">광산구</a><a href="원미구/">원미구</a><a href="구로/">구로</a><a href="구로구/">구로구</a><a href="세종/">세종</a><a href="중랑구/">중랑구</a><a href="중랑/">중랑</a><a href="동작구/">동작구</a><a href="동작/">동작</a><a href="해운대/">해운대</a><a href="수지/">수지</a><a href="위례/">위례</a><a href="영등포/">영등포</a><a href="유성/">유성</a><a href="마포/">마포</a><a href="권선구/">권선구</a><a href="영통구/">영통구</a><a href="영통/">영통</a><a href="원주/">원주</a><a href="양산/">양산</a><a href="아산/">아산</a><a href="동대문/">동대문</a><a href="진주/">진주</a><a href="광진구/">광진구</a><a href="상록구/">상록구</a><a href="하남/">하남</a><a href="전주/">전주</a><a href="안양/">안양</a><a href="동안구/">동안구</a><a href="덕진구/">덕진구</a><a href="도봉구/">도봉구</a><a href="도봉/">도봉</a><a href="서대문/">서대문</a><a href="서대문구/">서대문구</a><a href="울산/">울산</a><a href="단원구/">단원구</a><a href="안산/">안산</a><a href="사하구/">사하구</a><a href="일산동구/">일산동구</a><a href="춘천/">춘천</a><a href="강북구/">강북구</a><a href="강북/">강북</a><a href="일산서구/">일산서구</a><a href="계양구/">계양구</a><a href="청주/">청주</a><a href="흥덕구/">흥덕구</a><a href="양주/">양주</a><a href="광명/">광명</a><a href="순천/">순천</a><a href="성동구/">성동구</a><a href="성동/">성동</a><a href="장안구/">장안구</a><a href="부산/">부산</a><a href="여수/">여수</a><a href="동래구/">동래구</a><a href="처인구/">처인구</a><a href="익산/">익산</a><a href="경산/">경산</a><a href="천안/">천안</a><a href="동남구/">동남구</a><a href="달성군/">달성군</a><a href="군포/">군포</a><a href="군산/">군산</a><a href="경주/">경주</a><a href="성산구/">성산구</a><a href="수정구/">수정구</a><a href="오산/">오산</a><a href="거제/">거제</a><a href="만안구/">만안구</a><a href="소사구/">소사구</a><a href="금천구/">금천구</a><a href="포항/">포항</a><a href="이천/">이천</a><a href="울주/">울주</a><a href="금정구/">금정구</a><a href="목포/">목포</a><a href="연제구/">연제구</a><a href="창원/">창원</a><a href="의창구/">의창구</a><a href="중원구/">중원구</a><a href="강릉/">강릉</a><a href="충주/">충주</a><a href="용산/">용산</a><a href="사상구/">사상구</a><a href="상당구/">상당구</a><a href="팔달구/">팔달구</a><a href="진해/">진해</a><a href="청원/">청원</a><a href="구리/">구리</a><a href="서원구/">서원구</a><a href="서귀포/">서귀포</a><a href="기장/">기장</a><a href="서산/">서산</a><a href="당진/">당진</a><a href="대덕구/">대덕구</a><a href="의왕/">의왕</a><a href="안동/">안동</a><a href="광양/">광양</a><a href="포천/">포천</a><a href="강서구/">강서구</a><a href="강서/">강서</a><a href="종로/">종로</a><a href="종로구/">종로구</a><a href="김천/">김천</a><a href="제천/">제천</a><a href="양평/">양평</a><a href="통영/">통영</a><a href="나주/">나주</a><a href="여주/">여주</a><a href="논산/">논산</a><a href="사천/">사천</a><a href="칠곡/">칠곡</a><a href="영도구/">영도구</a><a href="정읍/">정읍</a><a href="공주/">공주</a><a href="밀양/">밀양</a><a href="영천/">영천</a><a href="영주/">영주</a><a href="완주/">완주</a><a href="홍성/">홍성</a><a href="보령/">보령</a><a href="상주/">상주</a><a href="무안/">무안</a><a href="음성/">음성</a><a href="동해/">동해</a><a href="동두천/">동두천</a><a href="진천/">진천</a><a href="과천/">과천</a><a href="속초/">속초</a><a href="김제/">김제</a><a href="예산/">예산</a><a href="남원/">남원</a><a href="강화/">강화</a><a href="문경/">문경</a><a href="홍천/">홍천</a><a href="해남/">해남</a><a href="가평/">가평</a><a href="삼척/">삼척</a><a href="화순/">화순</a><a href="고흥/">고흥</a><a href="태안/">태안</a><a href="부여/">부여</a><a href="거창/">거창</a><a href="함안/">함안</a><a href="창녕/">창녕</a><a href="예천/">예천</a><a href="영암/">영암</a><a href="영광/">영광</a><a href="고창/">고창</a><a href="금산/">금산</a><a href="의성/">의성</a><a href="서천/">서천</a><a href="고성/">고성</a><a href="부안/">부안</a><a href="옥천/">옥천</a><a href="계룡/">계룡</a><a href="서울/">서울</a><a href="부천/">부천</a><a href="온양/">온양</a><a href="배곧/">배곧</a><a href="마곡/">마곡</a><a href="안성/">안성</a><a href="청라/">청라</a><a href="산본/">산본</a><a href="동탄/">동탄</a><a href="송탄/">송탄</a><a href="연천/">연천</a><a href="태백/">태백</a><a href="이태원/">이태원</a><a href="홍대/">홍대</a><a href="조치원/">조치원</a><a href="평창/">평창</a><a href="송추/">송추</a><a href="미사/">미사</a><a href="수원/">수원</a><a href="송도/">송도</a><a href="목동/">목동</a><a href="화곡/">화곡</a><a href="마산/">마산</a><a href="청양/">청양</a><a href="보은/">보은</a><a href="영동/">영동</a><a href="무주/">무주</a><a href="진안/">진안</a><a href="순창/">순창</a><a href="담양/">담양</a><a href="곡성/">곡성</a><a href="보성/">보성</a><a href="장흥/">장흥</a><a href="강진/">강진</a><a href="남해/">남해</a><a href="하동/">하동</a><a href="구례/">구례</a><a href="의령/">의령</a><a href="합천/">합천</a><a href="군위/">군위</a><a href="영덕/">영덕</a><a href="청송/">청송</a><a href="봉화/">봉화</a><a href="영양/">영양</a><a href="울진/">울진</a><a href="영월/">영월</a><a href="양양/">양양</a><a href="인제/">인제</a><a href="화천/">화천</a><a href="철원/">철원</a></div>
+</main>
+<footer>
+  <div class="wrap">© 2026 강아지보호소 품으로</div>
+</footer>
+<div class="callbar">
+  <a class="call-adopt" href="tel:05054641004"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지입양<small>0505-464-1004</small></span></a>
+  <a class="call-rehome" href="tel:05057070401"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지파양입소<small>0505-707-0401</small></span></a>
+</div>
+</body>
+</html>

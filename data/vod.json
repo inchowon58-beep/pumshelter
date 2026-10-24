@@ -1,0 +1,507 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{	
+	
+	"tId":"Mrwee2QLSCr8mCfDxmRjhg",
+	"transactionCreatedTime":1792565989210,
+	"serverTime": "2026-10-21T15:59:49+0900",
+	"expireTime": "2026-10-21T16:29:49+0900",
+	
+	"meta":{
+		"masterVideoId":"CF0869FB82AFEE765552928155487839090E"
+        ,"contentId": "31765153_5_9ba601666db94a5dbef18a57d833f7fc"
+		,"serviceId":5
+		,"count":2
+		,"interfaceLang" : "ko_KR"
+        ,"url" : "https://cafe.naver.com/agaetstory/5"
+        ,"homeUrl" : "https://cafe.naver.com"
+        ,"provider" : {
+        	"name":"NAVER" 
+        }
+		,"subject":"\uC2E4\uBC84\uD0C4\uD478\uB4E4 \uB85C\uD558\uC758 \uBCC0\uC2E0"
+		,"cover":{
+			"type":"single"
+			,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_08.jpg"
+		}
+        
+		,"share":{
+			"usable":true
+			,"count":0
+			,"onlyInnerServices":false
+		}
+
+		,"user":{
+			"id":"esde****"
+			,"name":"\uC560\uB4E4\uC544\uC0B0***"
+            ,"url": "https://cafe.naver.com"
+		}
+
+        
+		,"relationVideo":{
+			"type":"url"
+			,"source":"https://serviceapi.nmv.naver.com/flash/getRelativeMovie.nhn?vid=CF0869FB82AFEE765552928155487839090E"
+		}
+		
+		
+		,"apiList":[{"name":"count","source":"https://apis.naver.com/rmcnmv/rmcnmv/PlayCount.json?v=1&key=V12831d8ce350c688edd42780974b2e7a6b6b69e6a650cf57f737cdcc9bcbe913b5102780974b2e7a6b6b&tid=Mrwee2QLSCr8mCfDxmRjhg&tcs=null&vid=CF0869FB82AFEE765552928155487839090E&cc=KR&sid=5&inout=in","offset":0.0,"callbackData":{"cpn":"NAVER","cpid":"NAVER","tid":"Mrwee2QLSCr8mCfDxmRjhg"}},{"name":"playTime","source":"https://apis.naver.com/videostat/videostat/PlayTime.json?v=1&tid=Mrwee2QLSCr8mCfDxmRjhg&tcs=null","offset":0.0,"callbackData":{"cpn":"NAVER","cpid":"NAVER","tid":"Mrwee2QLSCr8mCfDxmRjhg"}},{"name":"share","source":"https://serviceapi.nmv.naver.com/flash/getShareInfo.nhn?vid=CF0869FB82AFEE765552928155487839090E&srcUrl=https%3A%2F%2Fcafe.naver.com%2Fagaetstory%2F5&title=%EC%8B%A4%EB%B2%84%ED%83%84%ED%91%B8%EB%93%A4+%EB%A1%9C%ED%95%98%EC%9D%98+%EB%B3%80%EC%8B%A0&plaerType=html&inKey=V12831d8ce350c688edd42780974b2e7a6b6b69e6a650cf57f737cdcc9bcbe913b5102780974b2e7a6b6b","offset":0.0},{"name":"shareList","source":"https://serviceapi.nmv.naver.com/ui/refererList.nhn?vid=CF0869FB82AFEE765552928155487839090E&inKey=V12831d8ce350c688edd42780974b2e7a6b6b69e6a650cf57f737cdcc9bcbe913b5102780974b2e7a6b6b","offset":0.0}]
+		
+        
+
+        ,"display":{
+            
+                "vodinfo" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "playButton" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "screenClickPlay" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "script" : {
+                    "visible" : "false"
+                    
+                },
+            
+                "quality" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "setting" : {
+                    "visible" : "false"
+                    
+                },
+            
+                "playbackRate" : {
+                    "visible" : "false"
+                    
+                },
+            
+                "scrap" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "expand" : {
+                    "visible" : "false"
+                    
+                    ,"value" : "none"
+                    
+                },
+            
+                "fullscreen" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "seekable" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "subtitle" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "logo" : {
+                    "visible" : "false"
+                    
+                },
+            
+                "thumbnails" : {
+                    "visible" : "true"
+                    
+                },
+            
+                "captionUpload" : {
+                    "visible" : "false"
+                    
+                }
+            
+        }
+        
+        
+        ,"rules" : {
+			"splitVod" : {"version":1.0, "fadeInTime" : 2.0, "fadeOutTime":2.0, "playbackRewindTime":5.0}
+			,"preloadingMidAd":{"version":1.0, "offset":10.0, "showNotice":true, "noticeTime":3.0}
+			
+			,"adFreeZone" : {"version":1.0, "zone":"end", "offset":420.0}
+			
+		}
+		
+		,"countryCode" : "KR"
+		
+		
+		,"encodingModel" : "NONE"
+	}
+	,"videos":{
+		"type":"video"
+		,"hasPreview":"false"
+		,"isPreview":false
+		,"canAutoPlay":true
+		,"isMultiTrack":false 
+  		,"dimension": "uhd"
+  		
+		,"list": [{
+				"id":"CF0869FB82AFEE765552928155487839090E"
+				,"useP2P":false
+				,"duration":90.418				
+				,"size":11921758
+				,"type":"avc1","isDefault":true
+				,"encodingOption": {
+					"id":"480P_01"
+					,"name":"480p"
+					,"profile":"BASE"
+                    ,"width":480
+                    ,"height":854
+                    ,"isEncodingComplete": "true"
+                    ,"completeProgress":"100"
+				}
+				,"bitrate":{
+					"video":923.0
+					,"audio":128.0
+				}
+				,"p2pMetaUrl":""
+				,"p2pUrl":""
+				,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/tmdv_6c1d9fd4-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=66a56efd414266d6a0df05bb6b8555b90e533348bf067f5a3fe70bc2c76539057d22ea1663357a0ee0ac35421f3afbccc4d764539f5909f6b33032ed2d55a5f211122224af2cfa9148eab17776ea6d02&ratio=280&in_out_flag=1"				
+				,"sourceFrom":"GN"
+								
+				
+			},
+			{
+				"id":"E06E26FE15C8EFA3EC948A6631DB53ED1DF5"
+				,"useP2P":false
+				,"duration":90.418				
+				,"size":18034879
+				,"type":"avc1"
+				,"encodingOption": {
+					"id":"720P_01"
+					,"name":"720p"
+					,"profile":"MAIN"
+                    ,"width":720
+                    ,"height":1280
+                    ,"isEncodingComplete": "true"
+                    ,"completeProgress":"100"
+				}
+				,"bitrate":{
+					"video":1400.0
+					,"audio":192.0
+				}
+				,"p2pMetaUrl":""
+				,"p2pUrl":""
+				,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/base_pathfinder_pf3448100_tmdv_6c1e6326-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=6b4533f021546b169dd165936d15a0b4fe3936c8cb0d8f1332d75bc3771d30f579219a1569352f07006e3cd20a3ebb10fb1d96392fa12bf199b0fd73ad402721551092a6c39a81a131c4ce6d35b9e42c&ratio=280&in_out_flag=1"				
+				,"sourceFrom":"GN"
+								
+				
+			},
+			{
+				"id":"6B8DA31CD9800110EE021AB575D276BEF723"
+				,"useP2P":false
+				,"duration":90.418				
+				,"size":5724915
+				,"type":"avc1"
+				,"encodingOption": {
+					"id":"270P_01"
+					,"name":"270p"
+					,"profile":"BASE"
+                    ,"width":270
+                    ,"height":480
+                    ,"isEncodingComplete": "true"
+                    ,"completeProgress":"100"
+				}
+				,"bitrate":{
+					"video":408.0
+					,"audio":96.0
+				}
+				,"p2pMetaUrl":""
+				,"p2pUrl":""
+				,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/tmdv_6c1e1505-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=686520f1610d688617dec58b65f5adb21e4c37d845022f8438f73fc5877c3845da27fa916aa57e0730bc3bb28e319b7722c362e7f8478e0de93d1f60825f4f0c8fdf5b5ed38c3b1d187336a8945397f0&ratio=280&in_out_flag=1"				
+				,"sourceFrom":"GN"
+								
+				
+			},
+			{
+				"id":"07E3A3A6A3AA1445B38564038139B1DA06D8"
+				,"useP2P":false
+				,"duration":90.418				
+				,"size":33625388
+				,"type":"avc1"
+				,"encodingOption": {
+					"id":"1080P_01"
+					,"name":"1080p"
+					,"profile":"HIGH"
+                    ,"width":1080
+                    ,"height":1920
+                    ,"isEncodingComplete": "true"
+                    ,"completeProgress":"100"
+				}
+				,"bitrate":{
+					"video":2780.0
+					,"audio":192.0
+				}
+				,"p2pMetaUrl":""
+				,"p2pUrl":""
+				,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/pd/1785391844473/base_pathfinder_pf3448100_tmdv_6c1eb147-8bdd-11f1-9fdf-a0369fff5798.mp4?_lsu_sa_=69d583fb61e36736cdd0d53a6dd57dbc2e6d31183f059f6539c7abc1c7e23515b9248ad46ae5bd0a40e23912923b7babdbca3e64186325c8b23ae44d4bc9ee6ee75e621811ae14c65a0a26bb4a8bafe2&ratio=280&in_out_flag=1"				
+				,"sourceFrom":"GN"
+								
+				
+			}
+			
+		]
+	}
+	,"streams":[
+	
+		{"type":"HLS"
+		,"enableABR":"off"
+		
+		,"dimension": "uhd"
+  		
+		,"keys":[
+		
+		{ 
+			"type":"param"
+			,"name":"_lsu_sa_"
+			,"value":"66857ffff10b6b362bd8f5a76e45bcbe3e363c18020edf353697c0c0e7243115f92fea336375b00fe00234025c353b7040508e9275093df2930336f1a72f97b0fb2c1040f6c0a297ebc6ae2f93015d99d2b0a5ffe2b93272ee453e6d996c7ccc3ca2d768462c26cdb53325e5e6ecff213164b344cdc4373573a92eb7578990b2"
+		}
+		
+		]
+				
+			,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe_2026_07_30_2180/hls/a50fb7bc-8bdd-11f1-a297-a0369ffde1bc.m3u8"		
+			,"sourceFrom":"GN"
+			
+				
+			,"videos": [{
+						"id":"CF0869FB82AFEE765552928155487839090E"
+						,"encodingOption": {
+							"id":"480P_01"
+							,"name":"480p"
+		                    ,"width":480
+		                    ,"height":854
+						}
+						,"bitrate":{
+							"video":923.0
+							,"audio":128.0
+						}
+						,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe_2026_07_30_2180/hls/a05fc485-8bdd-11f1-bfc3-a0369fff5f34.m3u8"	
+						,"sourceFrom":"GN"
+						
+					}
+					,
+	    	   {
+						"id":"E06E26FE15C8EFA3EC948A6631DB53ED1DF5"
+						,"encodingOption": {
+							"id":"720P_01"
+							,"name":"720p"
+		                    ,"width":720
+		                    ,"height":1280
+						}
+						,"bitrate":{
+							"video":1400.0
+							,"audio":192.0
+						}
+						,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe_2026_07_30_2180/hls/97fa90f8-8bdd-11f1-be2b-a0369ffab1cc.m3u8"	
+						,"sourceFrom":"GN"
+						
+					}
+					,
+	    	   {
+						"id":"6B8DA31CD9800110EE021AB575D276BEF723"
+						,"encodingOption": {
+							"id":"270P_01"
+							,"name":"270p"
+		                    ,"width":270
+		                    ,"height":480
+						}
+						,"bitrate":{
+							"video":408.0
+							,"audio":96.0
+						}
+						,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe_2026_07_30_2180/hls/85e4bf69-8bdd-11f1-ba6d-a0369ffbda6c.m3u8"	
+						,"sourceFrom":"GN"
+						
+					}
+					,
+	    	   {
+						"id":"07E3A3A6A3AA1445B38564038139B1DA06D8"
+						,"encodingOption": {
+							"id":"1080P_01"
+							,"name":"1080p"
+		                    ,"width":1080
+		                    ,"height":1920
+						}
+						,"bitrate":{
+							"video":2780.0
+							,"audio":192.0
+						}
+						,"source":"https://b01-kr-naver-vod.pstatic.net/cafe/a/read/v2/VOD_ALPHA/cafe_2026_07_30_2180/hls/9f8060db-8bdd-11f1-9c24-a0369ffd9aec.m3u8"	
+						,"sourceFrom":"GN"
+						
+					}
+					
+	    	   
+			]
+			}			
+	
+	]
+	
+	
+	
+	,"thumbnails":{
+		"list":[
+			{
+				"time":0.0
+				,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_01.jpg?type=s80"
+			}
+			,
+			
+			{
+				"time":18.0
+				,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_03.jpg?type=s80"
+			}
+			,
+			
+			{
+				"time":36.0
+				,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_05.jpg?type=s80"
+			}
+			,
+			
+			{
+				"time":54.0
+				,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_07.jpg?type=s80"
+			}
+			,
+			
+			{
+				"time":72.0
+				,"source":"https://phinf.pstatic.net/image.nmv/cafe_2026_07_30_1050/FL04IgQslY_09.jpg?type=s80"
+			}
+			
+			
+		]
+	
+		,"sprites":[
+		
+			{
+				"type":"m_10x10"
+				,"totalPage":1
+				,"rowCount":10
+				,"columnCount":10
+				,"intervalType":"millisecond"
+				,"interval":1000
+				,"thumbnailWidth":90
+				,"thumbnailHeight":160
+				,"allThumbnailCount":92
+				,"sourcePatternType":"SEQUENCE_PATTERN"
+				,"source":"https://resources-rmcnmv.pstatic.net/cafe/c/read/v2/VOD_ALPHA/cafe/CF0869FB82AFEE765552928155487839090E/thumbnail/1785391844473/a06801e7-8bdd-11f1-bfc3-a0369fff5f34/sprite_a089937f-8bdd-11f1-bfc2-48df3726a100_#.jpg"
+			}
+			
+		
+		]
+	
+	}
+	
+
+    
+    ,"trackings":{
+    
+    	"stat-policy": [
+    
+    		{
+    			"event": "quality"
+    			,"timeTable": [3, 5, 8, 13, 21, 34, 60]
+    			
+    			,"type": "qoe"
+    			,"url": "https://apis.naver.com/mcollector/mcollector/qoe"
+    		}
+    
+    		,{
+    			"event": "error"
+    			
+    			
+    			,"type": "qoe"
+    			,"url": "https://apis.naver.com/mcollector/mcollector/qoeError"
+    		}
+    
+    	]
+    
+    }
+    
+    
+    
+    ,"externalFeature": {
+    
+    	
+    	"loudnessNormalization": {
+			"enable":true
+    		,"version":"1.1.4"
+    		,"contentType":"application/octet-stream"
+    		,"contentEncoding":"BASE64_SAFE"
+    		,"data":"AQAAAAEAITwBOgEAvwZnQ3UPfRJsMd4IU1M3DQEfAl8DugEF3gQGrgUJ6x0R8z4XuVwjrWtGt54BiwGSKZcC8QaBBD0BAAAAAQAAAgFa_____w=="
+    		
+    		,"properties": {
+    			
+    			"mode":"youtube-like"
+    			
+    			,"targetLoudness":-16.0
+    			
+    		}
+    		
+    	}
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
