@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>은비 — 강아지보호소 품으로</title>
+  <meta name="description" content="은비, 믹스견, 5살, 여아. 먹을거에 욕심이 있어요, 폼피츠 스러운 아이, 똑순이랍니다">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Song+Myung&amp;display=swap">
+  <link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">
+      <img class="logo" src="../../assets/logo.jpg" alt="강아지보호소 품으로" width="54" height="54" loading="eager">
+      <span><span class="brand-name">강아지보호소</span><span class="brand-sub">품으로</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="site-nav">
+      <a href="../../index.html">홈</a>
+      <a href="../../pets/index.html">입양하기</a>
+      <a href="../../index.html#rehome">파양 입소</a>
+      <a href="../../index.html#story">이렇게 지내요</a>
+    </nav>
+  </div>
+</header>
+<script>
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    const open = navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+  });
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.setAttribute("aria-label", "메뉴 열기");
+    });
+  });
+}
+</script>
+<main class="wrap detail">
+  <a class="crumb" href="../index.html">← 입양 목록</a>
+  <div class="detail-grid">
+    <div>
+      <div class="frame"><img id="hero-photo" src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/0.jpg" alt="은비"></div>
+      <div class="thumbs"><button type="button" data-src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/0.jpg" data-alt="은비 사진 1" aria-current="true"><img src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/0.jpg" alt=""></button><button type="button" data-src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/3.jpg" data-alt="은비 사진 2"><img src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/3.jpg" alt=""></button><button type="button" data-src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/1.jpg" data-alt="은비 사진 3"><img src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/1.jpg" alt=""></button><button type="button" data-src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/2.jpg" data-alt="은비 사진 4"><img src="../../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/2.jpg" alt=""></button></div>
+    </div>
+    <div class="detail-copy">
+      <h1>은비</h1>
+      <p class="lede">믹스견 · 5살 · 여아</p>
+      <p class="blurb">폼피츠를 쏙 빼닮은 은비는 영리해서 눈치가 참 빠른 똑순이입니다. 밥시간만 되면 반짝이는 눈으로 맛있는 간식을 기다리곤 해요.</p>
+      <div class="traits"><span class="trait">먹을거에 욕심이 있어요</span><span class="trait">폼피츠 스러운 아이</span><span class="trait">똑순이랍니다</span></div>
+      <div class="facts">
+        <div class="fact"><span>품종</span><strong>믹스견</strong></div>
+        <div class="fact"><span>나이</span><strong>5살</strong></div>
+        <div class="fact"><span>성별</span><strong>여아</strong></div>
+        <div class="fact"><span>건강 상태</span><strong>건강함</strong></div>
+        <div class="fact"><span>중성화</span><strong>안 함</strong></div>
+        <div class="fact"><span>입소 경로</span><strong>파양</strong></div>
+      </div>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="tel:05054641004">입양 문의 0505-464-1004</a>
+        <a class="btn btn-ghost" href="../index.html">다른 아이 보기</a>
+      </div>
+    </div>
+  </div>
+  <section class="comment-box">
+  <h2>댓글 29</h2>
+  <div class="react react-detail"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>좋아요 94</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>댓글 29</span></div>
+  <ul><li><strong>냥집사준비</strong><p>중성화는 아직 안 했다는 기본 정보도 같이 읽어 봤어요.</p></li><li><strong>기다림중</strong><p>건강한 모습 그대로 가족 만나길.</p></li><li><strong>채원</strong><p>「똑순이랍니다」. 이 한 줄이 사진이랑 제일 잘 맞아요.</p></li><li><strong>동네친구</strong><p>사진 보는 동안에도 좋은 가족이 생기길 빌었어요.</p></li><li><strong>마음만</strong><p>적힌 특징이 「먹을거에 욕심이 있어요」, 「폼피츠 스러운 아이」, 「똑순이랍니다」인데, 사진이랑 안 어긋나지 않아요.</p></li><li><strong>젤리</strong><p>좋은 가족, 맛있는 밥, 포근한 잠자리 만나길.</p></li><li><strong>나연</strong><p>은비, 다시 보게 된 이유는 「폼피츠 스러운 아이」이었어요.</p></li><li><strong>퇴근후</strong><p>좋은 인연이 빨리 나타났으면.</p></li><li><strong>주말마다봄</strong><p>「폼피츠 스러운 아이」. 이 한 줄이 사진이랑 제일 잘 맞아요.</p></li><li><strong>보리아빠</strong><p>은비, 기다리는 동안도 건강히.</p></li><li><strong>유진</strong><p>5살 은비라고 하니, 사진 속 표정이 그 나이로 보여요.</p></li><li><strong>민지</strong><p>댓글로나마 쓰다듬고 갑니다. 잘 자라.</p></li><li><strong>다정</strong><p>건강하다는 안내를 읽고 나니 은비 사진이 더 반가워요.</p></li><li><strong>첫댓글</strong><p>지금처럼 건강하고, 그다음은 좋은 가족이 이어 주길.</p></li><li><strong>준호</strong><p>소개글 그대로예요. 폼피츠를 쏙 빼닮은 은비는 영리해서 눈치가 참 빠른 똑순이입니다.</p></li><li><strong>도윤</strong><p>아프지 말고 잘 자라라.</p></li><li><strong>산책러</strong><p>특징에 「똑순이랍니다」라고 있는데, 사진을 보니 고개가 끄덕여져요.</p></li><li><strong>구름</strong><p>사랑받을 일만 남았으면 해요.</p></li><li><strong>서연</strong><p>「먹을거에 욕심이 있어요」. 이 한 줄이 사진이랑 제일 잘 맞아요.</p></li><li><strong>콩이엄마</strong><p>아프지 말고, 밥 잘 먹고, 잘 자라.</p></li><li><strong>예린</strong><p>은비, 건강함이라고 적힌 기본 정보가 사진이랑 잘 맞아요.</p></li><li><strong>라떼</strong><p>좋은 가족이 은비의 믹스견다운 점을 그대로 아껴 주면 좋겠어요.</p></li><li><strong>멀리서</strong><p>믹스견 은비, 사진이 소개글이랑 같아요.</p></li><li><strong>시우</strong><p>믹스견 은비의 「먹을거에 욕심이 있어요」, 사진에서 먼저 느껴졌어요.</p></li><li><strong>밤공기</strong><p>글에 적힌 믹스견 얼굴이 사진에 그대로 있어요.</p></li><li><strong>하늘</strong><p>은비, 다시 보게 된 이유는 「먹을거에 욕심이 있어요」이었어요.</p></li><li><strong>포근</strong><p>은비 사진만 봐도 믹스견 소개가 과장이 아니에요.</p></li><li><strong>주말예약</strong><p>소개글 그대로예요. 밥시간만 되면 반짝이는 눈으로 맛있는 간식을 기다리곤 해요.</p></li><li><strong>따뜻한집</strong><p>은비, 다시 보게 된 이유는 「똑순이랍니다」이었어요.</p></li></ul>
+</section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <h2>다른 아이들도 만나보세요</h2>
+      </div>
+      <a class="more" href="../index.html">전체 보기</a>
+    </div>
+    <div class="grid"><article class="card" data-pet data-name="초코" data-search="초코 토이푸들 6살 여아 2살때 대퇴골 수술함 토이푸들보다 더 작고 소중한 아이 착해도 너무나 착해요">
+  <a href="../../pets/722f62fe-d7ee-4e4e-a580-5203b17a3150/index.html">
+    <div class="card-photo"><img src="../../photos/722f62fe-d7ee-4e4e-a580-5203b17a3150/2.jpg" alt="초코" loading="lazy"></div>
+    <div class="card-body">
+      <h3>초코</h3>
+      <div class="meta">토이푸들 · 6살 · 여</div>
+      <div class="traits"><span class="trait">2살때 대퇴골 수술함</span><span class="trait">토이푸들보다 더 작고 소중한 아이</span><span class="trait">착해도 너무나 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="바둑이" data-search="바둑이 믹스견 2개월령 남아 똑똑한 앙칼쟁이 기집애같지만 남자!">
+  <a href="../../pets/334b8b4c-07c8-4a2b-80ae-972a6d47245e/index.html">
+    <div class="card-photo"><img src="../../photos/334b8b4c-07c8-4a2b-80ae-972a6d47245e/3.jpg" alt="바둑이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>바둑이</h3>
+      <div class="meta">믹스견 · 2개월령 · 남</div>
+      <div class="traits"><span class="trait">똑똑한 앙칼쟁이</span><span class="trait">기집애같지만 남자!</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>120</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="우디" data-search="우디 셔틀랜드쉽독 6개월 남아 밝고 활발함 애교 많음 사회성 좋음">
+  <a href="../../pets/pet-imported-420/index.html">
+    <div class="card-photo"><img src="../../photos/pet-imported-420/0.jpg" alt="우디" loading="lazy"></div>
+    <div class="card-body">
+      <h3>우디</h3>
+      <div class="meta">셔틀랜드쉽독 · 6개월 · 남</div>
+      <div class="traits"><span class="trait">밝고 활발함</span><span class="trait">애교 많음</span><span class="trait">사회성 좋음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+</div>
+  </section>
+</main>
+
+<script>
+const hero = document.querySelector("#hero-photo");
+document.querySelectorAll(".thumbs button").forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!hero) return;
+    hero.src = button.dataset.src;
+    hero.alt = button.dataset.alt;
+    document.querySelectorAll(".thumbs button").forEach((item) => item.removeAttribute("aria-current"));
+    button.setAttribute("aria-current", "true");
+  });
+});
+</script>
+
+<footer>
+  <div class="wrap">© 2026 강아지보호소 품으로</div>
+</footer>
+<div class="callbar">
+  <a class="call-adopt" href="tel:05054641004"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지입양<small>0505-464-1004</small></span></a>
+  <a class="call-rehome" href="tel:05057070401"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지파양입소<small>0505-707-0401</small></span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>미르 — 강아지보호소 품으로</title>
+  <meta name="description" content="미르, 웰시코기카디건, 8살, 남아. 귀하디 귀한 웰시코기 카디건, 단미안되어있음, 귀여움보단 든든함 물씬">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Song+Myung&amp;display=swap">
+  <link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">
+      <img class="logo" src="../../assets/logo.jpg" alt="강아지보호소 품으로" width="54" height="54" loading="eager">
+      <span><span class="brand-name">강아지보호소</span><span class="brand-sub">품으로</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="site-nav">
+      <a href="../../index.html">홈</a>
+      <a href="../../pets/index.html">입양하기</a>
+      <a href="../../index.html#rehome">파양 입소</a>
+      <a href="../../index.html#story">이렇게 지내요</a>
+    </nav>
+  </div>
+</header>
+<script>
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    const open = navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+  });
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.setAttribute("aria-label", "메뉴 열기");
+    });
+  });
+}
+</script>
+<main class="wrap detail">
+  <a class="crumb" href="../index.html">← 입양 목록</a>
+  <div class="detail-grid">
+    <div>
+      <div class="frame"><img id="hero-photo" src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/2.jpg" alt="미르"></div>
+      <div class="thumbs"><button type="button" data-src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/2.jpg" data-alt="미르 사진 1" aria-current="true"><img src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/2.jpg" alt=""></button><button type="button" data-src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/0.jpg" data-alt="미르 사진 2"><img src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/0.jpg" alt=""></button><button type="button" data-src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/1.jpg" data-alt="미르 사진 3"><img src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/1.jpg" alt=""></button><button type="button" data-src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/3.jpg" data-alt="미르 사진 4"><img src="../../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/3.jpg" alt=""></button></div>
+    </div>
+    <div class="detail-copy">
+      <h1>미르</h1>
+      <p class="lede">웰시코기카디건 · 8살 · 남아</p>
+      <p class="blurb">자연스러운 긴 꼬리가 매력적인 귀한 웰시코기 카디건 미르예요. 귀여움보다는 곁을 든든하게 지켜주는 여덟 살 형아다운 매력을 지녔답니다.</p>
+      <div class="traits"><span class="trait">귀하디 귀한 웰시코기 카디건</span><span class="trait">단미안되어있음</span><span class="trait">귀여움보단 든든함 물씬</span></div>
+      <div class="facts">
+        <div class="fact"><span>품종</span><strong>웰시코기카디건</strong></div>
+        <div class="fact"><span>나이</span><strong>8살</strong></div>
+        <div class="fact"><span>성별</span><strong>남아</strong></div>
+        <div class="fact"><span>건강 상태</span><strong>건강함</strong></div>
+        <div class="fact"><span>중성화</span><strong>완료</strong></div>
+        <div class="fact"><span>입소 경로</span><strong>파양</strong></div>
+      </div>
+      <div class="detail-actions">
+        <a class="btn btn-primary" href="tel:05054641004">입양 문의 0505-464-1004</a>
+        <a class="btn btn-ghost" href="../index.html">다른 아이 보기</a>
+      </div>
+    </div>
+  </div>
+  <section class="comment-box">
+  <h2>댓글 15</h2>
+  <div class="react react-detail"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>좋아요 127</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>댓글 15</span></div>
+  <ul><li><strong>동네친구</strong><p>적힌 특징이 「귀하디 귀한 웰시코기 카디건」, 「단미안되어있음」, 「귀여움보단 든든함 물씬」인데, 사진이랑 안 어긋나지 않아요.</p></li><li><strong>살랑</strong><p>미르, 건강함이라고 적힌 기본 정보가 사진이랑 잘 맞아요.</p></li><li><strong>냥집사준비</strong><p>아프지 말고 잘 자라라.</p></li><li><strong>유진</strong><p>「귀하디 귀한 웰시코기 카디건」. 이 한 줄이 사진이랑 제일 잘 맞아요.</p></li><li><strong>모카</strong><p>미르, 다시 보게 된 이유는 「귀하디 귀한 웰시코기 카디건」이었어요.</p></li><li><strong>멀리서</strong><p>미르도 아프지 말고 무럭무럭.</p></li><li><strong>가은</strong><p>웰시코기카디건 미르, 사진이 소개글이랑 같아요.</p></li><li><strong>준호</strong><p>건강하다는 안내를 읽고 나니 미르 사진이 더 반가워요.</p></li><li><strong>마음만</strong><p>미르, 따뜻한 집에서 오래 사랑받길.</p></li><li><strong>퇴근후</strong><p>「단미안되어있음」. 이 한 줄이 사진이랑 제일 잘 맞아요.</p></li><li><strong>다정</strong><p>나이 8살, 남아, 품종 웰시코기카디건. 이 세 가지가 사진이랑 같이 보여요.</p></li><li><strong>주말예약</strong><p>꼭 좋은 데로 가세요.</p></li><li><strong>산책러</strong><p>좋은 가족이 미르의 웰시코기카디건다운 점을 그대로 아껴 주면 좋겠어요.</p></li><li><strong>제주바람</strong><p>파양으로 입소한 미르. 다음 가족이 이 성격을 알아봐 주면 좋겠어요.</p></li><li><strong>태경</strong><p>지금처럼 건강하고, 그다음은 좋은 가족이 이어 주길.</p></li></ul>
+</section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <h2>다른 아이들도 만나보세요</h2>
+      </div>
+      <a class="more" href="../index.html">전체 보기</a>
+    </div>
+    <div class="grid"><article class="card" data-pet data-name="초코" data-search="초코 토이푸들 6살 여아 2살때 대퇴골 수술함 토이푸들보다 더 작고 소중한 아이 착해도 너무나 착해요">
+  <a href="../../pets/722f62fe-d7ee-4e4e-a580-5203b17a3150/index.html">
+    <div class="card-photo"><img src="../../photos/722f62fe-d7ee-4e4e-a580-5203b17a3150/2.jpg" alt="초코" loading="lazy"></div>
+    <div class="card-body">
+      <h3>초코</h3>
+      <div class="meta">토이푸들 · 6살 · 여</div>
+      <div class="traits"><span class="trait">2살때 대퇴골 수술함</span><span class="trait">토이푸들보다 더 작고 소중한 아이</span><span class="trait">착해도 너무나 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="바둑이" data-search="바둑이 믹스견 2개월령 남아 똑똑한 앙칼쟁이 기집애같지만 남자!">
+  <a href="../../pets/334b8b4c-07c8-4a2b-80ae-972a6d47245e/index.html">
+    <div class="card-photo"><img src="../../photos/334b8b4c-07c8-4a2b-80ae-972a6d47245e/3.jpg" alt="바둑이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>바둑이</h3>
+      <div class="meta">믹스견 · 2개월령 · 남</div>
+      <div class="traits"><span class="trait">똑똑한 앙칼쟁이</span><span class="trait">기집애같지만 남자!</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>120</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="우디" data-search="우디 셔틀랜드쉽독 6개월 남아 밝고 활발함 애교 많음 사회성 좋음">
+  <a href="../../pets/pet-imported-420/index.html">
+    <div class="card-photo"><img src="../../photos/pet-imported-420/0.jpg" alt="우디" loading="lazy"></div>
+    <div class="card-body">
+      <h3>우디</h3>
+      <div class="meta">셔틀랜드쉽독 · 6개월 · 남</div>
+      <div class="traits"><span class="trait">밝고 활발함</span><span class="trait">애교 많음</span><span class="trait">사회성 좋음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+</div>
+  </section>
+</main>
+
+<script>
+const hero = document.querySelector("#hero-photo");
+document.querySelectorAll(".thumbs button").forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!hero) return;
+    hero.src = button.dataset.src;
+    hero.alt = button.dataset.alt;
+    document.querySelectorAll(".thumbs button").forEach((item) => item.removeAttribute("aria-current"));
+    button.setAttribute("aria-current", "true");
+  });
+});
+</script>
+
+<footer>
+  <div class="wrap">© 2026 강아지보호소 품으로</div>
+</footer>
+<div class="callbar">
+  <a class="call-adopt" href="tel:05054641004"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지입양<small>0505-464-1004</small></span></a>
+  <a class="call-rehome" href="tel:05057070401"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지파양입소<small>0505-707-0401</small></span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>입양하기 — 강아지보호소 품으로</title>
+  <meta name="description" content="강아지보호소 품으로에서 가족을 기다리는 아이들입니다.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Song+Myung&amp;display=swap">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../index.html">
+      <img class="logo" src="../assets/logo.jpg" alt="강아지보호소 품으로" width="54" height="54" loading="eager">
+      <span><span class="brand-name">강아지보호소</span><span class="brand-sub">품으로</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="site-nav">
+      <a href="../index.html">홈</a>
+      <a href="../pets/index.html" aria-current="page">입양하기</a>
+      <a href="../index.html#rehome">파양 입소</a>
+      <a href="../index.html#story">이렇게 지내요</a>
+    </nav>
+  </div>
+</header>
+<script>
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    const open = navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+  });
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.setAttribute("aria-label", "메뉴 열기");
+    });
+  });
+}
+</script>
+<main class="wrap board-hero">
+  <p class="eyebrow">ADOPTION</p>
+  <h1>입양하기</h1>
+  <p class="lede">마음에 드는 아이를 누르면 사진과 짧은 이야기를 볼 수 있어요.</p>
+  <div class="grid" id="grid"><article class="card" data-pet data-name="초코" data-search="초코 토이푸들 6살 여아 2살때 대퇴골 수술함 토이푸들보다 더 작고 소중한 아이 착해도 너무나 착해요">
+  <a href="../pets/722f62fe-d7ee-4e4e-a580-5203b17a3150/index.html">
+    <div class="card-photo"><img src="../photos/722f62fe-d7ee-4e4e-a580-5203b17a3150/2.jpg" alt="초코" loading="lazy"></div>
+    <div class="card-body">
+      <h3>초코</h3>
+      <div class="meta">토이푸들 · 6살 · 여</div>
+      <div class="traits"><span class="trait">2살때 대퇴골 수술함</span><span class="trait">토이푸들보다 더 작고 소중한 아이</span><span class="trait">착해도 너무나 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="바둑이" data-search="바둑이 믹스견 2개월령 남아 똑똑한 앙칼쟁이 기집애같지만 남자!">
+  <a href="../pets/334b8b4c-07c8-4a2b-80ae-972a6d47245e/index.html">
+    <div class="card-photo"><img src="../photos/334b8b4c-07c8-4a2b-80ae-972a6d47245e/3.jpg" alt="바둑이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>바둑이</h3>
+      <div class="meta">믹스견 · 2개월령 · 남</div>
+      <div class="traits"><span class="trait">똑똑한 앙칼쟁이</span><span class="trait">기집애같지만 남자!</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>120</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="우디" data-search="우디 셔틀랜드쉽독 6개월 남아 밝고 활발함 애교 많음 사회성 좋음">
+  <a href="../pets/pet-imported-420/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-420/0.jpg" alt="우디" loading="lazy"></div>
+    <div class="card-body">
+      <h3>우디</h3>
+      <div class="meta">셔틀랜드쉽독 · 6개월 · 남</div>
+      <div class="traits"><span class="trait">밝고 활발함</span><span class="trait">애교 많음</span><span class="trait">사회성 좋음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="반달곰" data-search="반달곰 믹스견 생후 2개월령 남아 가슴에 흰털이 포인트 삼형제중 제일 호기심이 많음 순하고 착해요">
+  <a href="../pets/cd8f8f74-7389-4f0e-92ff-59695ab6e276/index.html">
+    <div class="card-photo"><img src="../photos/cd8f8f74-7389-4f0e-92ff-59695ab6e276/1.jpg" alt="반달곰" loading="lazy"></div>
+    <div class="card-body">
+      <h3>반달곰</h3>
+      <div class="meta">믹스견 · 생후 2개월령 · 남</div>
+      <div class="traits"><span class="trait">가슴에 흰털이 포인트</span><span class="trait">삼형제중 제일 호기심이 많음</span><span class="trait">순하고 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>85</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="뚜리" data-search="뚜리 화이트푸들 7년 남아 소심하지만 다정함 조용한 성격 사람 곁을 좋아함">
+  <a href="../pets/pet-imported-507/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-507/0.jpg" alt="뚜리" loading="lazy"></div>
+    <div class="card-body">
+      <h3>뚜리</h3>
+      <div class="meta">화이트푸들 · 7년 · 남</div>
+      <div class="traits"><span class="trait">소심하지만 다정함</span><span class="trait">조용한 성격</span><span class="trait">사람 곁을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>117</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="보들이" data-search="보들이 미니핀 10살 여아 살짝 소심함 사람무릎을 너무 좋아함">
+  <a href="../pets/80c4c944-aadb-446d-90d8-8592fbb22703/index.html">
+    <div class="card-photo"><img src="../photos/80c4c944-aadb-446d-90d8-8592fbb22703/1.jpg" alt="보들이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>보들이</h3>
+      <div class="meta">미니핀 · 10살 · 여</div>
+      <div class="traits"><span class="trait">살짝 소심함</span><span class="trait">사람무릎을 너무 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>81</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="나롱이" data-search="나롱이 시츄 5살 여아 네 가족중 엄마 시츄답게 얌전함 통통미">
+  <a href="../pets/dd6c11c5-1e92-44d6-8968-2395487b38cf/index.html">
+    <div class="card-photo"><img src="../photos/dd6c11c5-1e92-44d6-8968-2395487b38cf/0.jpg" alt="나롱이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>나롱이</h3>
+      <div class="meta">시츄 · 5살 · 여</div>
+      <div class="traits"><span class="trait">네 가족중 엄마</span><span class="trait">시츄답게 얌전함</span><span class="trait">통통미</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>99</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>19</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="흑설탕" data-search="흑설탕 믹스견 3살 여아 성격이 소심해요 친해지면 애교최고봉">
+  <a href="../pets/edf2dfda-d40e-4c6f-b324-7afa62f088d5/index.html">
+    <div class="card-photo"><img src="../photos/edf2dfda-d40e-4c6f-b324-7afa62f088d5/0.jpg" alt="흑설탕" loading="lazy"></div>
+    <div class="card-body">
+      <h3>흑설탕</h3>
+      <div class="meta">믹스견 · 3살 · 여</div>
+      <div class="traits"><span class="trait">성격이 소심해요</span><span class="trait">친해지면 애교최고봉</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>133</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="로하" data-search="로하 푸들 11살 여아 전주인의 방치로 인해 마름 사람좋아함 실버탄모색으로 너무 귀여워요">
+  <a href="../pets/23670470-8fe6-41d9-8537-721aa97f1d91/index.html">
+    <div class="card-photo"><img src="../photos/23670470-8fe6-41d9-8537-721aa97f1d91/3.jpg" alt="로하" loading="lazy"></div>
+    <div class="card-body">
+      <h3>로하</h3>
+      <div class="meta">푸들 · 11살 · 여</div>
+      <div class="traits"><span class="trait">전주인의 방치로 인해 마름</span><span class="trait">사람좋아함</span><span class="trait">실버탄모색으로 너무 귀여워요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>95</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>16</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="한별" data-search="한별 실버푸들 2년 여아 겁이 많고 소심함 익숙해지면 다정함 조용한 성격">
+  <a href="../pets/pet-imported-506/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-506/0.jpg" alt="한별" loading="lazy"></div>
+    <div class="card-body">
+      <h3>한별</h3>
+      <div class="meta">실버푸들 · 2년 · 여</div>
+      <div class="traits"><span class="trait">겁이 많고 소심함</span><span class="trait">익숙해지면 다정함</span><span class="trait">조용한 성격</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>88</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="감자" data-search="감자 믹스견 11개월 여아 꼬리콥터를 달고있어요 사람을 너무너무 좋아해요 순둥이 끝판왕">
+  <a href="../pets/e370ee89-6da8-462d-860c-aa2d2f838244/index.html">
+    <div class="card-photo"><img src="../photos/e370ee89-6da8-462d-860c-aa2d2f838244/2.jpg" alt="감자" loading="lazy"></div>
+    <div class="card-body">
+      <h3>감자</h3>
+      <div class="meta">믹스견 · 11개월 · 여</div>
+      <div class="traits"><span class="trait">꼬리콥터를 달고있어요</span><span class="trait">사람을 너무너무 좋아해요</span><span class="trait">순둥이 끝판왕</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>130</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="나롱이" data-search="나롱이 시츄 5살 여아 네가족중 엄마 시츄답게 엄청 착하고 얌전함 애교만땅">
+  <a href="../pets/1d778a7b-b772-4982-a144-3dd83deb5805/index.html">
+    <div class="card-photo"><img src="../photos/1d778a7b-b772-4982-a144-3dd83deb5805/0.jpg" alt="나롱이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>나롱이</h3>
+      <div class="meta">시츄 · 5살 · 여</div>
+      <div class="traits"><span class="trait">네가족중 엄마</span><span class="trait">시츄답게 엄청 착하고 얌전함</span><span class="trait">애교만땅</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>119</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="마루" data-search="마루 말티즈 5살 남아 완전 쪼꼬미 말티즈 애교 많아요">
+  <a href="../pets/611bac49-8253-4e27-a35a-962d64107a2c/index.html">
+    <div class="card-photo"><img src="../photos/611bac49-8253-4e27-a35a-962d64107a2c/3.jpg" alt="마루" loading="lazy"></div>
+    <div class="card-body">
+      <h3>마루</h3>
+      <div class="meta">말티즈 · 5살 · 남</div>
+      <div class="traits"><span class="trait">완전 쪼꼬미 말티즈</span><span class="trait">애교 많아요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>88</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>24</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="로키" data-search="로키 먼치킨 5살 남아 무섭게 생겼지만 그렇지 않아요 억울냥이랍니다 골프공가지고 잘놀아요 번팅도 잘하고 발톱도 안세우는 개냥이">
+  <a href="../pets/7fe2184a-8e0f-4920-8f10-4018ccb99f4f/index.html">
+    <div class="card-photo"><img src="../photos/7fe2184a-8e0f-4920-8f10-4018ccb99f4f/2.jpg" alt="로키" loading="lazy"></div>
+    <div class="card-body">
+      <h3>로키</h3>
+      <div class="meta">먼치킨 · 5살 · 남</div>
+      <div class="traits"><span class="trait">무섭게 생겼지만 그렇지 않아요</span><span class="trait">억울냥이랍니다</span><span class="trait">골프공가지고 잘놀아요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>82</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="깜둥이,깜순이" data-search="깜둥이,깜순이 믹스견 2개월령 남아 깜둥 남매들 세상순둥이랍니다 꼬순내 폭발">
+  <a href="../pets/215e0c25-d279-4280-887f-1b96024f48a1/index.html">
+    <div class="card-photo"><img src="../photos/215e0c25-d279-4280-887f-1b96024f48a1/2.jpg" alt="깜둥이,깜순이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>깜둥이,깜순이</h3>
+      <div class="meta">믹스견 · 2개월령 · 남</div>
+      <div class="traits"><span class="trait">깜둥 남매들</span><span class="trait">세상순둥이랍니다</span><span class="trait">꼬순내 폭발</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>133</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="퍼비" data-search="퍼비 폼피츠 5살 남아 살짝 소심한 친구 포메를 더 닮은 외모 조심성이 많음">
+  <a href="../pets/89327628-17eb-4b05-8804-f6c7f9bc3e98/index.html">
+    <div class="card-photo"><img src="../photos/89327628-17eb-4b05-8804-f6c7f9bc3e98/1.jpg" alt="퍼비" loading="lazy"></div>
+    <div class="card-body">
+      <h3>퍼비</h3>
+      <div class="meta">폼피츠 · 5살 · 남</div>
+      <div class="traits"><span class="trait">살짝 소심한 친구</span><span class="trait">포메를 더 닮은 외모</span><span class="trait">조심성이 많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>130</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>20</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="흑곰이" data-search="흑곰이 믹스견 생후 2개월령 남아 활발함 호기심대마왕 사람 잘따름">
+  <a href="../pets/c9f31551-a8fd-41b8-8acf-42a0199734a3/index.html">
+    <div class="card-photo"><img src="../photos/c9f31551-a8fd-41b8-8acf-42a0199734a3/2.jpg" alt="흑곰이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>흑곰이</h3>
+      <div class="meta">믹스견 · 생후 2개월령 · 남</div>
+      <div class="traits"><span class="trait">활발함</span><span class="trait">호기심대마왕</span><span class="trait">사람 잘따름</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>126</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="달봉이" data-search="달봉이 페키니즈 2년 남아 순하고 사람을 잘 따름 조용한 성격 천천히 산책 좋아함">
+  <a href="../pets/pet-imported-421/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-421/0.jpg" alt="달봉이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>달봉이</h3>
+      <div class="meta">페키니즈 · 2년 · 남</div>
+      <div class="traits"><span class="trait">순하고 사람을 잘 따름</span><span class="trait">조용한 성격</span><span class="trait">천천히 산책 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>91</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>20</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="땡초" data-search="땡초 웰시코기 5살 남아 단미된 웰시코기 애교가 많음">
+  <a href="../pets/9a18241a-6738-4ec1-b70a-7b65bec71030/index.html">
+    <div class="card-photo"><img src="../photos/9a18241a-6738-4ec1-b70a-7b65bec71030/1.jpg" alt="땡초" loading="lazy"></div>
+    <div class="card-body">
+      <h3>땡초</h3>
+      <div class="meta">웰시코기 · 5살 · 남</div>
+      <div class="traits"><span class="trait">단미된 웰시코기</span><span class="trait">애교가 많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>87</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>29</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="초롱이" data-search="초롱이 시츄 4살 여아 네 가족중 첫째 딸 가장 듬직해요 시츄다운 느긋함">
+  <a href="../pets/48033fff-b553-4ac0-a20f-098ceb420aa9/index.html">
+    <div class="card-photo"><img src="../photos/48033fff-b553-4ac0-a20f-098ceb420aa9/2.jpg" alt="초롱이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>초롱이</h3>
+      <div class="meta">시츄 · 4살 · 여</div>
+      <div class="traits"><span class="trait">네 가족중 첫째 딸</span><span class="trait">가장 듬직해요</span><span class="trait">시츄다운 느긋함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>103</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="길산" data-search="길산 시바견 6살 남아 산책러버 순둥순둥 조용한 성격 짖음없음">
+  <a href="../pets/40bf0744-aa16-4c9c-a9fa-521d65968c69/index.html">
+    <div class="card-photo"><img src="../photos/40bf0744-aa16-4c9c-a9fa-521d65968c69/2.jpg" alt="길산" loading="lazy"></div>
+    <div class="card-body">
+      <h3>길산</h3>
+      <div class="meta">시바견 · 6살 · 남</div>
+      <div class="traits"><span class="trait">산책러버</span><span class="trait">순둥순둥 조용한 성격</span><span class="trait">짖음없음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>137</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="장군이" data-search="장군이 골든리트리버 3개월 남아 3개월 장꾸 리트리버 장군이 리트리버답게 순둥이끝판왕 아직 어려서 장난치는게 제일 좋은 아가">
+  <a href="../pets/4d42cebe-7861-4f84-923f-ef4b1b57b669/index.html">
+    <div class="card-photo"><img src="../photos/4d42cebe-7861-4f84-923f-ef4b1b57b669/0.jpg" alt="장군이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>장군이</h3>
+      <div class="meta">골든리트리버 · 3개월 · 남</div>
+      <div class="traits"><span class="trait">3개월 장꾸 리트리버 장군이</span><span class="trait">리트리버답게 순둥이끝판왕</span><span class="trait">아직 어려서 장난치는게 제일 좋은 아가</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>85</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="테리" data-search="테리 보스턴테리어 + 프렌치불독 믹스 6년 여아 차분한 시니어 사람 손길을 좋아함 조용히 곁에 있어줌">
+  <a href="../pets/pet-imported-423/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-423/0.jpg" alt="테리" loading="lazy"></div>
+    <div class="card-body">
+      <h3>테리</h3>
+      <div class="meta">보스턴테리어 + 프렌치불독 믹스 · 6년 · 여</div>
+      <div class="traits"><span class="trait">차분한 시니어</span><span class="trait">사람 손길을 좋아함</span><span class="trait">조용히 곁에 있어줌</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>89</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="찐이" data-search="찐이 미니핀 6살 남아 세상 얌전한 아이 통통한 몸매가 매력적">
+  <a href="../pets/3a43841f-624c-4952-afcc-42eac858ab33/index.html">
+    <div class="card-photo"><img src="../photos/3a43841f-624c-4952-afcc-42eac858ab33/1.jpg" alt="찐이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>찐이</h3>
+      <div class="meta">미니핀 · 6살 · 남</div>
+      <div class="traits"><span class="trait">세상 얌전한 아이</span><span class="trait">통통한 몸매가 매력적</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>131</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="루스" data-search="루스 먼치킨 9개월 여아 수다쟁이 냥이 먼치킨답게 애교쟁이 골골송쟁이 지역 : 충주">
+  <a href="../pets/0cfbf010-6426-4d8c-98f8-77701842f73c/index.html">
+    <div class="card-photo"><img src="../photos/0cfbf010-6426-4d8c-98f8-77701842f73c/0.jpg" alt="루스" loading="lazy"></div>
+    <div class="card-body">
+      <h3>루스</h3>
+      <div class="meta">먼치킨 · 9개월 · 여</div>
+      <div class="traits"><span class="trait">수다쟁이 냥이</span><span class="trait">먼치킨답게 애교쟁이</span><span class="trait">골골송쟁이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="두부" data-search="두부 말티숑 6살 여아 조용하고 얌전함 사람좋아하고 애교많음">
+  <a href="../pets/b64fb354-7c70-4ba4-bbbb-0ec9f5e09043/index.html">
+    <div class="card-photo"><img src="../photos/b64fb354-7c70-4ba4-bbbb-0ec9f5e09043/2.jpg" alt="두부" loading="lazy"></div>
+    <div class="card-body">
+      <h3>두부</h3>
+      <div class="meta">말티숑 · 6살 · 여</div>
+      <div class="traits"><span class="trait">조용하고 얌전함</span><span class="trait">사람좋아하고 애교많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>117</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="사남매" data-search="사남매 믹스견 생후 2개월령 미상 곰돌이 인형같은 외모 같은 형제 다른모색 각기 다른 매력 뿜뿜">
+  <a href="../pets/a86f7181-2f36-4ee3-9dd5-35eda7bffe06/index.html">
+    <div class="card-photo"><img src="../photos/a86f7181-2f36-4ee3-9dd5-35eda7bffe06/2.jpg" alt="사남매" loading="lazy"></div>
+    <div class="card-body">
+      <h3>사남매</h3>
+      <div class="meta">믹스견 · 생후 2개월령 · 미상</div>
+      <div class="traits"><span class="trait">곰돌이 인형같은 외모</span><span class="trait">같은 형제 다른모색</span><span class="trait">각기 다른 매력 뿜뿜</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>117</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="메라" data-search="메라 비숑프리제 8개월 남아 사교성 최고 사람을 너무 좋아함 다른 반려동물과도 잘지냄 지역 : 충주">
+  <a href="../pets/eba81eed-42bb-493f-8ba0-5df205cf8e52/index.html">
+    <div class="card-photo"><img src="../photos/eba81eed-42bb-493f-8ba0-5df205cf8e52/0.jpg" alt="메라" loading="lazy"></div>
+    <div class="card-body">
+      <h3>메라</h3>
+      <div class="meta">비숑프리제 · 8개월 · 남</div>
+      <div class="traits"><span class="trait">사교성 최고</span><span class="trait">사람을 너무 좋아함</span><span class="trait">다른 반려동물과도 잘지냄</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="땅콩이" data-search="땅콩이 말티즈 8살 남아 웃음이 이쁜 해피바이러스 영리하고 눈치가 빨라요 순하고 착해요">
+  <a href="../pets/509fb028-097c-476e-b303-19d5f8a81523/index.html">
+    <div class="card-photo"><img src="../photos/509fb028-097c-476e-b303-19d5f8a81523/2.jpg" alt="땅콩이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>땅콩이</h3>
+      <div class="meta">말티즈 · 8살 · 남</div>
+      <div class="traits"><span class="trait">웃음이 이쁜 해피바이러스</span><span class="trait">영리하고 눈치가 빨라요</span><span class="trait">순하고 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>118</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="멜로" data-search="멜로 말티치 6살 남아 똥꼬발랄 사람을 너무 좋아함 애교가 많아요">
+  <a href="../pets/d0bb6be1-0222-428c-8d6a-266f94405ac2/index.html">
+    <div class="card-photo"><img src="../photos/d0bb6be1-0222-428c-8d6a-266f94405ac2/3.jpg" alt="멜로" loading="lazy"></div>
+    <div class="card-body">
+      <h3>멜로</h3>
+      <div class="meta">말티치 · 6살 · 남</div>
+      <div class="traits"><span class="trait">똥꼬발랄</span><span class="trait">사람을 너무 좋아함</span><span class="trait">애교가 많아요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>85</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="루이" data-search="루이 말티즈 7년 남아 다정한 시니어 조용하고 점잖음 사람 곁을 좋아함">
+  <a href="../pets/pet-imported-431/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-431/0.jpg" alt="루이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>루이</h3>
+      <div class="meta">말티즈 · 7년 · 남</div>
+      <div class="traits"><span class="trait">다정한 시니어</span><span class="trait">조용하고 점잖음</span><span class="trait">사람 곁을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="마동석" data-search="마동석 믹스견 6살 남아 이름과 정반대 외모 이름과 정반대 성격 살짝 소심하고 겁이 많아요">
+  <a href="../pets/bbe0474f-551d-4eed-8df0-cb9bf37cf319/index.html">
+    <div class="card-photo"><img src="../photos/bbe0474f-551d-4eed-8df0-cb9bf37cf319/1.jpg" alt="마동석" loading="lazy"></div>
+    <div class="card-body">
+      <h3>마동석</h3>
+      <div class="meta">믹스견 · 6살 · 남</div>
+      <div class="traits"><span class="trait">이름과 정반대 외모</span><span class="trait">이름과 정반대 성격</span><span class="trait">살짝 소심하고 겁이 많아요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>114</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="마이쮸" data-search="마이쮸 미니비숑 4살 여아 사람과 멍멍이 친구들을 좋아함 너무 온순함">
+  <a href="../pets/57d97abe-a423-4093-9b38-c682b9ecf257/index.html">
+    <div class="card-photo"><img src="../photos/57d97abe-a423-4093-9b38-c682b9ecf257/0.jpg" alt="마이쮸" loading="lazy"></div>
+    <div class="card-body">
+      <h3>마이쮸</h3>
+      <div class="meta">미니비숑 · 4살 · 여</div>
+      <div class="traits"><span class="trait">사람과 멍멍이 친구들을 좋아함</span><span class="trait">너무 온순함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>106</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>30</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="점박이" data-search="점박이 믹스견 2개월령 여아 연탄가루 범벅 얼굴이 매력 반전매력 넘침">
+  <a href="../pets/6e0b11e7-f626-44b7-8b1a-653e0f406c0b/index.html">
+    <div class="card-photo"><img src="../photos/6e0b11e7-f626-44b7-8b1a-653e0f406c0b/1.jpg" alt="점박이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>점박이</h3>
+      <div class="meta">믹스견 · 2개월령 · 여</div>
+      <div class="traits"><span class="trait">연탄가루 범벅 얼굴이 매력</span><span class="trait">반전매력 넘침</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>87</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="로마" data-search="로마 믹스견 생후 7개월 여아 겁이 많고 순함 먹는 건 좋아함 조심성이 많음 하얀양말이 포인트!">
+  <a href="../pets/c0064a4d-2f3a-4d9c-bcf0-445b2de74717/index.html">
+    <div class="card-photo"><img src="../photos/c0064a4d-2f3a-4d9c-bcf0-445b2de74717/0.jpg" alt="로마" loading="lazy"></div>
+    <div class="card-body">
+      <h3>로마</h3>
+      <div class="meta">믹스견 · 생후 7개월 · 여</div>
+      <div class="traits"><span class="trait">겁이 많고 순함</span><span class="trait">먹는 건 좋아함</span><span class="trait">조심성이 많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>136</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="꼬미" data-search="꼬미 믹스견 2살 여아 사둥이들의 엄마 사람을 너무 좋아함 이런 천사견이 또 있을까요">
+  <a href="../pets/a40a56f1-5156-4fe0-9221-a631a1e788da/index.html">
+    <div class="card-photo"><img src="../photos/a40a56f1-5156-4fe0-9221-a631a1e788da/1.jpg" alt="꼬미" loading="lazy"></div>
+    <div class="card-body">
+      <h3>꼬미</h3>
+      <div class="meta">믹스견 · 2살 · 여</div>
+      <div class="traits"><span class="trait">사둥이들의 엄마</span><span class="trait">사람을 너무 좋아함</span><span class="trait">이런 천사견이 또 있을까요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>129</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="사장님" data-search="사장님 말티즈 6년 남아 듬직하고 점잖음 애교 많음 사람을 잘 따름">
+  <a href="../pets/pet-imported-432/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-432/0.jpg" alt="사장님" loading="lazy"></div>
+    <div class="card-body">
+      <h3>사장님</h3>
+      <div class="meta">말티즈 · 6년 · 남</div>
+      <div class="traits"><span class="trait">듬직하고 점잖음</span><span class="trait">애교 많음</span><span class="trait">사람을 잘 따름</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>82</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>20</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="천둥이" data-search="천둥이 시베리안허스키 7년 여아 듬직한 시니어 산책 베테랑 조용하고 점잖음">
+  <a href="../pets/pet-imported-426/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-426/0.jpg" alt="천둥이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>천둥이</h3>
+      <div class="meta">시베리안허스키 · 7년 · 여</div>
+      <div class="traits"><span class="trait">듬직한 시니어</span><span class="trait">산책 베테랑</span><span class="trait">조용하고 점잖음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>93</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="라떼" data-search="라떼 믹스견 5살 여아 살짝 소심한 순댕이 얼굴이나 등 보다는 앞가슴쪽을 만져주면 더 좋아함 초코와 연유와 한집에서 왔어요">
+  <a href="../pets/5932f6c0-e5d7-4ffe-b782-b36f48203564/index.html">
+    <div class="card-photo"><img src="../photos/5932f6c0-e5d7-4ffe-b782-b36f48203564/2.jpg" alt="라떼" loading="lazy"></div>
+    <div class="card-body">
+      <h3>라떼</h3>
+      <div class="meta">믹스견 · 5살 · 여</div>
+      <div class="traits"><span class="trait">살짝 소심한 순댕이</span><span class="trait">얼굴이나 등 보다는 앞가슴쪽을 만져주면 더 좋아함</span><span class="trait">초코와 연유와 한집에서 왔어요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>108</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="꽁냥이" data-search="꽁냥이 푸숑 (푸들 + 비숑프리제) 2년 여아 곱슬머리 매력 사람과 잘 어울림 활기찬 성격">
+  <a href="../pets/pet-imported-430/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-430/0.jpg" alt="꽁냥이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>꽁냥이</h3>
+      <div class="meta">푸숑 (푸들 + 비숑프리제) · 2년 · 여</div>
+      <div class="traits"><span class="trait">곱슬머리 매력</span><span class="trait">사람과 잘 어울림</span><span class="trait">활기찬 성격</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>92</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="하니" data-search="하니 비숑믹스 8살 남아 밝고 쾌활함 오리지널 빅숑 느낌 잔짖음 없음">
+  <a href="../pets/b24c66ae-2c5b-482e-9ff2-fd6111441a15/index.html">
+    <div class="card-photo"><img src="../photos/b24c66ae-2c5b-482e-9ff2-fd6111441a15/2.jpg" alt="하니" loading="lazy"></div>
+    <div class="card-body">
+      <h3>하니</h3>
+      <div class="meta">비숑믹스 · 8살 · 남</div>
+      <div class="traits"><span class="trait">밝고 쾌활함</span><span class="trait">오리지널 빅숑 느낌</span><span class="trait">잔짖음 없음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>112</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="퐁퐁" data-search="퐁퐁 비숑프리제 7살 여아 장난끼 많은 아가 짧뚱한게 매력포인트">
+  <a href="../pets/0ff4be1d-e863-4347-8b54-153fc24d132c/index.html">
+    <div class="card-photo"><img src="../photos/0ff4be1d-e863-4347-8b54-153fc24d132c/0.jpg" alt="퐁퐁" loading="lazy"></div>
+    <div class="card-body">
+      <h3>퐁퐁</h3>
+      <div class="meta">비숑프리제 · 7살 · 여</div>
+      <div class="traits"><span class="trait">장난끼 많은 아가</span><span class="trait">짧뚱한게 매력포인트</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>119</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>22</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="호두" data-search="호두 비숑프리제 5살 남아 혈통서보유 무릎위를 가장 좋아하는 순댕이 깨발랄 하지만 얌전한 아이">
+  <a href="../pets/64f62f18-dec8-4dc4-8584-969e013784ba/index.html">
+    <div class="card-photo"><img src="../photos/64f62f18-dec8-4dc4-8584-969e013784ba/2.jpg" alt="호두" loading="lazy"></div>
+    <div class="card-body">
+      <h3>호두</h3>
+      <div class="meta">비숑프리제 · 5살 · 남</div>
+      <div class="traits"><span class="trait">혈통서보유</span><span class="trait">무릎위를 가장 좋아하는 순댕이</span><span class="trait">깨발랄 하지만 얌전한 아이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>20</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="연유" data-search="연유 포메라니안 3살 여아 살짝 까칠하지만 애교만점 자기의 예쁨을 아는 귀염둥이 초코와 라떼랑 한집에서 왔어요!">
+  <a href="../pets/43bf294d-1b09-46db-8d04-90b00b3103d8/index.html">
+    <div class="card-photo"><img src="../photos/43bf294d-1b09-46db-8d04-90b00b3103d8/3.jpg" alt="연유" loading="lazy"></div>
+    <div class="card-body">
+      <h3>연유</h3>
+      <div class="meta">포메라니안 · 3살 · 여</div>
+      <div class="traits"><span class="trait">살짝 까칠하지만 애교만점</span><span class="trait">자기의 예쁨을 아는 귀염둥이</span><span class="trait">초코와 라떼랑 한집에서 왔어요!</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>120</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name=" 빛나" data-search=" 빛나 코리안숏헤어 5살 여아 tnr(구조 중성화)로 인해 귀 컷팅 하악질한번없이 순둥한 아가">
+  <a href="../pets/93251e58-98b4-4429-bef0-9f9b5b406974/index.html">
+    <div class="card-photo"><img src="../photos/93251e58-98b4-4429-bef0-9f9b5b406974/0.jpg" alt=" 빛나" loading="lazy"></div>
+    <div class="card-body">
+      <h3> 빛나</h3>
+      <div class="meta">코리안숏헤어 · 5살 · 여</div>
+      <div class="traits"><span class="trait">TNR(구조 중성화)로 인해 귀 컷팅</span><span class="trait">하악질한번없이 순둥한 아가</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>97</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="시루" data-search="시루 진돗개 믹스 7개월 남아 순하고 영리함 사람을 잘 따름 호기심 많은 어린 친구">
+  <a href="../pets/pet-imported-418/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-418/0.jpg" alt="시루" loading="lazy"></div>
+    <div class="card-body">
+      <h3>시루</h3>
+      <div class="meta">진돗개 믹스 · 7개월 · 남</div>
+      <div class="traits"><span class="trait">순하고 영리함</span><span class="trait">사람을 잘 따름</span><span class="trait">호기심 많은 어린 친구</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>139</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="봄이" data-search="봄이 폼피츠 6살 남아 한없이 순둥함 헛짖음없음 북극여우같은 외모">
+  <a href="../pets/0d3f4ffa-1c7e-4cf4-9120-1f3024f6f2e8/index.html">
+    <div class="card-photo"><img src="../photos/0d3f4ffa-1c7e-4cf4-9120-1f3024f6f2e8/2.jpg" alt="봄이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>봄이</h3>
+      <div class="meta">폼피츠 · 6살 · 남</div>
+      <div class="traits"><span class="trait">한없이 순둥함</span><span class="trait">헛짖음없음</span><span class="trait">북극여우같은 외모</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>127</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="시루" data-search="시루 시바견 2살 여아 자기물건에 애착이 강함 주인에 대한 애착도 강함 시바견 답게 쫄보 귀염둥이">
+  <a href="../pets/ae7a94bd-892f-4306-9002-880e4723cd53/index.html">
+    <div class="card-photo"><img src="../photos/ae7a94bd-892f-4306-9002-880e4723cd53/3.jpg" alt="시루" loading="lazy"></div>
+    <div class="card-body">
+      <h3>시루</h3>
+      <div class="meta">시바견 · 2살 · 여</div>
+      <div class="traits"><span class="trait">자기물건에 애착이 강함</span><span class="trait">주인에 대한 애착도 강함</span><span class="trait">시바견 답게 쫄보 귀염둥이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>124</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="미르" data-search="미르 웰시코기카디건 8살 남아 귀하디 귀한 웰시코기 카디건 단미안되어있음 귀여움보단 든든함 물씬">
+  <a href="../pets/b7116a61-0400-40ef-a253-e17b9c6d83da/index.html">
+    <div class="card-photo"><img src="../photos/b7116a61-0400-40ef-a253-e17b9c6d83da/2.jpg" alt="미르" loading="lazy"></div>
+    <div class="card-body">
+      <h3>미르</h3>
+      <div class="meta">웰시코기카디건 · 8살 · 남</div>
+      <div class="traits"><span class="trait">귀하디 귀한 웰시코기 카디건</span><span class="trait">단미안되어있음</span><span class="trait">귀여움보단 든든함 물씬</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>127</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>15</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="보리" data-search="보리 코카푸 3살 남아 밝고 쾌활함 친구들을 좋아해요 똥꼬발랄 귀염둥이">
+  <a href="../pets/6ff417c3-bcf6-4cfc-827a-f1d7b6cc638a/index.html">
+    <div class="card-photo"><img src="../photos/6ff417c3-bcf6-4cfc-827a-f1d7b6cc638a/2.jpg" alt="보리" loading="lazy"></div>
+    <div class="card-body">
+      <h3>보리</h3>
+      <div class="meta">코카푸 · 3살 · 남</div>
+      <div class="traits"><span class="trait">밝고 쾌활함</span><span class="trait">친구들을 좋아해요</span><span class="trait">똥꼬발랄 귀염둥이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>139</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="나무" data-search="나무 토이푸들 5살 여아 최강 애교쟁이 안기는걸 무척 좋아해요 호두와 같은 집에서 왔어요">
+  <a href="../pets/4cc2f9a8-156c-46b5-aaa0-b5453d8119f1/index.html">
+    <div class="card-photo"><img src="../photos/4cc2f9a8-156c-46b5-aaa0-b5453d8119f1/0.jpg" alt="나무" loading="lazy"></div>
+    <div class="card-body">
+      <h3>나무</h3>
+      <div class="meta">토이푸들 · 5살 · 여</div>
+      <div class="traits"><span class="trait">최강 애교쟁이</span><span class="trait">안기는걸 무척 좋아해요</span><span class="trait">호두와 같은 집에서 왔어요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>121</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="꼬로" data-search="꼬로 미니핀 10살 남아 겁이많고 소심함 나이때문에 눈에 백탁있음 소심하지만 애교는 많음">
+  <a href="../pets/42222806-90bd-4f24-a51d-cf429173f75a/index.html">
+    <div class="card-photo"><img src="../photos/42222806-90bd-4f24-a51d-cf429173f75a/1.jpg" alt="꼬로" loading="lazy"></div>
+    <div class="card-body">
+      <h3>꼬로</h3>
+      <div class="meta">미니핀 · 10살 · 남</div>
+      <div class="traits"><span class="trait">겁이많고 소심함</span><span class="trait">나이때문에 눈에 백탁있음</span><span class="trait">소심하지만 애교는 많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>88</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="은비" data-search="은비 믹스견 5살 여아 먹을거에 욕심이 있어요 폼피츠 스러운 아이 똑순이랍니다">
+  <a href="../pets/a4ba8c45-7f3c-40d6-aef1-5b523549b820/index.html">
+    <div class="card-photo"><img src="../photos/a4ba8c45-7f3c-40d6-aef1-5b523549b820/0.jpg" alt="은비" loading="lazy"></div>
+    <div class="card-body">
+      <h3>은비</h3>
+      <div class="meta">믹스견 · 5살 · 여</div>
+      <div class="traits"><span class="trait">먹을거에 욕심이 있어요</span><span class="trait">폼피츠 스러운 아이</span><span class="trait">똑순이랍니다</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>94</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>29</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="팝콘이" data-search="팝콘이 브리티쉬숏헤어 2살 여아 복막염완치 후 후유증있음 뒷다리를 잘 못쓰지만 잘 걸어다님 정해진 위치에만 배변함">
+  <a href="../pets/a4007a0a-d9d0-4d5b-91e5-9ae0edda8f22/index.html">
+    <div class="card-photo"><img src="../photos/a4007a0a-d9d0-4d5b-91e5-9ae0edda8f22/2.jpg" alt="팝콘이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>팝콘이</h3>
+      <div class="meta">브리티쉬숏헤어 · 2살 · 여</div>
+      <div class="traits"><span class="trait">복막염완치 후 후유증있음</span><span class="trait">뒷다리를 잘 못쓰지만 잘 걸어다님</span><span class="trait">정해진 위치에만 배변함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>96</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>20</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="미미" data-search="미미 꼬똥드툴레아 6개월 여아 순하고 사랑스러움 사람과 친근함 호기심 많음">
+  <a href="../pets/pet-imported-425/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-425/0.jpg" alt="미미" loading="lazy"></div>
+    <div class="card-body">
+      <h3>미미</h3>
+      <div class="meta">꼬똥드툴레아 · 6개월 · 여</div>
+      <div class="traits"><span class="trait">순하고 사랑스러움</span><span class="trait">사람과 친근함</span><span class="trait">호기심 많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>86</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="달이" data-search="달이 오시두들 9개월 여아 활발하고 산책을 좋아함 노즈워크 좋아함 지역 : 파주">
+  <a href="../pets/dcefe48f-16e0-4e2a-a7f5-d0d5bca435d5/index.html">
+    <div class="card-photo"><img src="../photos/dcefe48f-16e0-4e2a-a7f5-d0d5bca435d5/0.jpg" alt="달이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>달이</h3>
+      <div class="meta">오시두들 · 9개월 · 여</div>
+      <div class="traits"><span class="trait">활발하고 산책을 좋아함</span><span class="trait">노즈워크 좋아함</span><span class="trait">지역 : 파주</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>129</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="우기" data-search="우기 셔틀랜드쉽독 1년 7개월 남아 사람을 좋아함 산책을 즐김 온순한 성격">
+  <a href="../pets/pet-imported-422/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-422/0.jpg" alt="우기" loading="lazy"></div>
+    <div class="card-body">
+      <h3>우기</h3>
+      <div class="meta">셔틀랜드쉽독 · 1년 7개월 · 남</div>
+      <div class="traits"><span class="trait">사람을 좋아함</span><span class="trait">산책을 즐김</span><span class="trait">온순한 성격</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>125</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="행곰이" data-search="행곰이 믹스견 생후 2개월령 남아 겁이 많고 순함 유일한 트라이모색 최고 귀요미">
+  <a href="../pets/ce5447b6-edbb-4537-9a05-5c3740f5a868/index.html">
+    <div class="card-photo"><img src="../photos/ce5447b6-edbb-4537-9a05-5c3740f5a868/2.jpg" alt="행곰이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>행곰이</h3>
+      <div class="meta">믹스견 · 생후 2개월령 · 남</div>
+      <div class="traits"><span class="trait">겁이 많고 순함</span><span class="trait">유일한 트라이모색</span><span class="trait">최고 귀요미</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>131</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="망고" data-search="망고 스코티쉬폴드 2년 남아 온순한 성격 조용히 곁에 있음 사람 손길을 좋아함">
+  <a href="../pets/pet-imported-434/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-434/0.jpg" alt="망고" loading="lazy"></div>
+    <div class="card-body">
+      <h3>망고</h3>
+      <div class="meta">스코티쉬폴드 · 2년 · 남</div>
+      <div class="traits"><span class="trait">온순한 성격</span><span class="trait">조용히 곁에 있음</span><span class="trait">사람 손길을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>105</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>17</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="봄이" data-search="봄이 미니핀 11살 남아 겁이 살짝있음 사람 손길 좋아함 통통미">
+  <a href="../pets/e51e56a0-2e38-460b-abc2-21a8f2b0a996/index.html">
+    <div class="card-photo"><img src="../photos/e51e56a0-2e38-460b-abc2-21a8f2b0a996/3.jpg" alt="봄이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>봄이</h3>
+      <div class="meta">미니핀 · 11살 · 남</div>
+      <div class="traits"><span class="trait">겁이 살짝있음</span><span class="trait">사람 손길 좋아함</span><span class="trait">통통미</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>101</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>19</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="포도" data-search="포도 푸들 4살 남아 겁이 많음 순하고 착함 푸들이지만 다리짧은 귀염둥이">
+  <a href="../pets/7d1434ea-d463-4a27-82b2-dcf6fa77b147/index.html">
+    <div class="card-photo"><img src="../photos/7d1434ea-d463-4a27-82b2-dcf6fa77b147/2.jpg" alt="포도" loading="lazy"></div>
+    <div class="card-body">
+      <h3>포도</h3>
+      <div class="meta">푸들 · 4살 · 남</div>
+      <div class="traits"><span class="trait">겁이 많음</span><span class="trait">순하고 착함</span><span class="trait">푸들이지만 다리짧은 귀염둥이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>88</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="설탕" data-search="설탕 비숑프리제 9개월 여아 포근한 모습 사람 좋아함 장난기 가득">
+  <a href="../pets/pet-imported-427/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-427/0.jpg" alt="설탕" loading="lazy"></div>
+    <div class="card-body">
+      <h3>설탕</h3>
+      <div class="meta">비숑프리제 · 9개월 · 여</div>
+      <div class="traits"><span class="trait">포근한 모습</span><span class="trait">사람 좋아함</span><span class="trait">장난기 가득</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>100</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="슈가" data-search="슈가 미니비숑 5살 여아 비숑다운 깨발랄함 터지는 모량 남다른 귀요움 적응빠르고 성격너무 좋아요">
+  <a href="../pets/3e0bcaa2-46c4-4989-8117-c32ef918de3c/index.html">
+    <div class="card-photo"><img src="../photos/3e0bcaa2-46c4-4989-8117-c32ef918de3c/2.jpg" alt="슈가" loading="lazy"></div>
+    <div class="card-body">
+      <h3>슈가</h3>
+      <div class="meta">미니비숑 · 5살 · 여</div>
+      <div class="traits"><span class="trait">비숑다운 깨발랄함</span><span class="trait">터지는 모량 남다른 귀요움</span><span class="trait">적응빠르고 성격너무 좋아요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>139</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>24</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="크리미" data-search="크리미 말티푸 1살 남아 똥꼬발랄 귀염둥이 미니미 말티푸 사람이 제일 좋은 크리미">
+  <a href="../pets/d014526c-b305-45c5-893c-063946e475a5/index.html">
+    <div class="card-photo"><img src="../photos/d014526c-b305-45c5-893c-063946e475a5/2.jpg" alt="크리미" loading="lazy"></div>
+    <div class="card-body">
+      <h3>크리미</h3>
+      <div class="meta">말티푸 · 1살 · 남</div>
+      <div class="traits"><span class="trait">똥꼬발랄 귀염둥이</span><span class="trait">미니미 말티푸</span><span class="trait">사람이 제일 좋은 크리미</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>102</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="해태" data-search="해태 시츄 4살 남아 네 가족중 막둥이 아들 막둥이지만 든든해요 아들이라 가족을 지키려는 의지 뿜뿜">
+  <a href="../pets/32cb6d65-d832-4a90-ac06-acdb9c0b6f5f/index.html">
+    <div class="card-photo"><img src="../photos/32cb6d65-d832-4a90-ac06-acdb9c0b6f5f/1.jpg" alt="해태" loading="lazy"></div>
+    <div class="card-body">
+      <h3>해태</h3>
+      <div class="meta">시츄 · 4살 · 남</div>
+      <div class="traits"><span class="trait">네 가족중 막둥이 아들</span><span class="trait">막둥이지만 든든해요</span><span class="trait">아들이라 가족을 지키려는 의지 뿜뿜</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>124</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="양이" data-search="양이 보스턴테리어 믹스 1년 남아 순하고 겁이 많음 실제로 보면 묘한 매력 조용히 곁에 있음">
+  <a href="../pets/pet-imported-509/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-509/0.jpg" alt="양이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>양이</h3>
+      <div class="meta">보스턴테리어 믹스 · 1년 · 남</div>
+      <div class="traits"><span class="trait">순하고 겁이 많음</span><span class="trait">실제로 보면 묘한 매력</span><span class="trait">조용히 곁에 있음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>114</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="호롱이" data-search="호롱이 시츄 5살 남아 네 가족중 아빠 피부병있음 네 식구들중 가장 동안">
+  <a href="../pets/8910e19d-bb82-4420-b964-74b07db329c4/index.html">
+    <div class="card-photo"><img src="../photos/8910e19d-bb82-4420-b964-74b07db329c4/2.jpg" alt="호롱이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>호롱이</h3>
+      <div class="meta">시츄 · 5살 · 남</div>
+      <div class="traits"><span class="trait">네 가족중 아빠</span><span class="trait">피부병있음</span><span class="trait">네 식구들중 가장 동안</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>140</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>29</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="찰떡이" data-search="찰떡이 프렌치불독 5개월 남아 애교 많은 어린 친구 활발하고 밝음 사람을 잘 따름">
+  <a href="../pets/pet-imported-424/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-424/0.jpg" alt="찰떡이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>찰떡이</h3>
+      <div class="meta">프렌치불독 · 5개월 · 남</div>
+      <div class="traits"><span class="trait">애교 많은 어린 친구</span><span class="trait">활발하고 밝음</span><span class="trait">사람을 잘 따름</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>126</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="태양이" data-search="태양이 시츄 15살 남아 한쪽눈이 안보여요 시츄답게 얌전함 순하고 착해요">
+  <a href="../pets/76ce8bb7-71ee-46b5-9452-deb0d8913e21/index.html">
+    <div class="card-photo"><img src="../photos/76ce8bb7-71ee-46b5-9452-deb0d8913e21/3.jpg" alt="태양이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>태양이</h3>
+      <div class="meta">시츄 · 15살 · 남</div>
+      <div class="traits"><span class="trait">한쪽눈이 안보여요</span><span class="trait">시츄답게 얌전함</span><span class="trait">순하고 착해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>137</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="카푸" data-search="카푸 믹스견 3개월 여아 핵귀요미 초코코, 갈색눈이 매력뽀인트 깨발랄장난꾸러기">
+  <a href="../pets/07ecffd0-71e5-4ff6-92ea-4952dcadee0f/index.html">
+    <div class="card-photo"><img src="../photos/07ecffd0-71e5-4ff6-92ea-4952dcadee0f/1.jpg" alt="카푸" loading="lazy"></div>
+    <div class="card-body">
+      <h3>카푸</h3>
+      <div class="meta">믹스견 · 3개월 · 여</div>
+      <div class="traits"><span class="trait">핵귀요미</span><span class="trait">초코코, 갈색눈이 매력뽀인트</span><span class="trait">깨발랄장난꾸러기</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>82</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>24</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="콩이" data-search="콩이 푸들 11살 남아 비만 가슴쪽 상처 적응이 필요함 밥주는사람을 제일 좋아함">
+  <a href="../pets/f3330915-b387-4b05-872c-c6ac600b70bd/index.html">
+    <div class="card-photo"><img src="../photos/f3330915-b387-4b05-872c-c6ac600b70bd/0.jpg" alt="콩이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>콩이</h3>
+      <div class="meta">푸들 · 11살 · 남</div>
+      <div class="traits"><span class="trait">비만</span><span class="trait">가슴쪽 상처</span><span class="trait">적응이 필요함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>132</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="쫑이" data-search="쫑이 말티즈 6살 남아 메롱 혓바닥이 매력포인트 동안페이스 조용히 곁에 다가와요">
+  <a href="../pets/8cbb1b29-d1c3-4e4b-891a-e7f5f31df167/index.html">
+    <div class="card-photo"><img src="../photos/8cbb1b29-d1c3-4e4b-891a-e7f5f31df167/0.jpg" alt="쫑이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>쫑이</h3>
+      <div class="meta">말티즈 · 6살 · 남</div>
+      <div class="traits"><span class="trait">메롱 혓바닥이 매력포인트</span><span class="trait">동안페이스</span><span class="trait">조용히 곁에 다가와요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>81</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>29</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="흑랑이" data-search="흑랑이 시바견 생후 6개월 남아 너무 착한성격 항상 웃상 에너지 넘침">
+  <a href="../pets/fad08784-1744-4163-8dee-5bb15a8a1b62/index.html">
+    <div class="card-photo"><img src="../photos/fad08784-1744-4163-8dee-5bb15a8a1b62/3.jpg" alt="흑랑이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>흑랑이</h3>
+      <div class="meta">시바견 · 생후 6개월 · 남</div>
+      <div class="traits"><span class="trait">너무 착한성격</span><span class="trait">항상 웃상</span><span class="trait">에너지 넘침</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>104</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>19</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="뽀뽀" data-search="뽀뽀 푸들 3년 여아 친해지면 껌딱지 사람을 잘 따름 조심스러운 첫인상">
+  <a href="../pets/pet-imported-436/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-436/0.jpg" alt="뽀뽀" loading="lazy"></div>
+    <div class="card-body">
+      <h3>뽀뽀</h3>
+      <div class="meta">푸들 · 3년 · 여</div>
+      <div class="traits"><span class="trait">친해지면 껌딱지</span><span class="trait">사람을 잘 따름</span><span class="trait">조심스러운 첫인상</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>125</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>25</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="로키" data-search="로키 요크셔테리어 9살 남아 사람을 너무 좋아함 머즐털 미용됨 산책을 좋아함">
+  <a href="../pets/24c741e2-1d10-4a64-b327-648a70ba3426/index.html">
+    <div class="card-photo"><img src="../photos/24c741e2-1d10-4a64-b327-648a70ba3426/2.jpg" alt="로키" loading="lazy"></div>
+    <div class="card-body">
+      <h3>로키</h3>
+      <div class="meta">요크셔테리어 · 9살 · 남</div>
+      <div class="traits"><span class="trait">사람을 너무 좋아함</span><span class="trait">머즐털 미용됨</span><span class="trait">산책을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>131</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>18</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="쭈미" data-search="쭈미 화이트푸들 7년 여아 관심을 좋아함 애교 있음 에너지 충만">
+  <a href="../pets/pet-imported-508/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-508/0.jpg" alt="쭈미" loading="lazy"></div>
+    <div class="card-body">
+      <h3>쭈미</h3>
+      <div class="meta">화이트푸들 · 7년 · 여</div>
+      <div class="traits"><span class="trait">관심을 좋아함</span><span class="trait">애교 있음</span><span class="trait">에너지 충만</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>129</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>19</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="밤" data-search="밤 코리안숏헤어 5년 여아 적당히 얌전함 친해지면 애교 부림 조용한 성격">
+  <a href="../pets/pet-imported-511/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-511/0.jpg" alt="밤" loading="lazy"></div>
+    <div class="card-body">
+      <h3>밤</h3>
+      <div class="meta">코리안숏헤어 · 5년 · 여</div>
+      <div class="traits"><span class="trait">적당히 얌전함</span><span class="trait">친해지면 애교 부림</span><span class="trait">조용한 성격</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>88</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>28</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="뚱이" data-search="뚱이 미니비숑 3살 여아 슈가의 딸 자기물건에 애착이 강함 착하고 순하고 적응력 빠름">
+  <a href="../pets/fbd661c7-2e45-483d-b06e-177db70a5f54/index.html">
+    <div class="card-photo"><img src="../photos/fbd661c7-2e45-483d-b06e-177db70a5f54/0.jpg" alt="뚱이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>뚱이</h3>
+      <div class="meta">미니비숑 · 3살 · 여</div>
+      <div class="traits"><span class="trait">슈가의 딸</span><span class="trait">자기물건에 애착이 강함</span><span class="trait">착하고 순하고 적응력 빠름</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>118</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>16</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="초코" data-search="초코 믹스견 5살 여아 뽀뽀를 좋아하는 사랑둥이 호불호 확실한 강아지! 간식 뺏겨도 화내지 않는 순댕이 라뗴와 연유랑 한집에서 왔어요!">
+  <a href="../pets/56b28762-14a2-47a4-a6da-60b983c0acb8/index.html">
+    <div class="card-photo"><img src="../photos/56b28762-14a2-47a4-a6da-60b983c0acb8/0.jpg" alt="초코" loading="lazy"></div>
+    <div class="card-body">
+      <h3>초코</h3>
+      <div class="meta">믹스견 · 5살 · 여</div>
+      <div class="traits"><span class="trait">뽀뽀를 좋아하는 사랑둥이</span><span class="trait">호불호 확실한 강아지!</span><span class="trait">간식 뺏겨도 화내지 않는 순댕이</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>125</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>23</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="머랭" data-search="머랭 스탠다드푸들 10개월 여아 공놀이를 좋아함 크기만크지 순둥이 그자체 사람도 너무너무 좋아해요">
+  <a href="../pets/ac62897d-a94c-4da9-93d4-06746dc64351/index.html">
+    <div class="card-photo"><img src="../photos/ac62897d-a94c-4da9-93d4-06746dc64351/2.jpg" alt="머랭" loading="lazy"></div>
+    <div class="card-body">
+      <h3>머랭</h3>
+      <div class="meta">스탠다드푸들 · 10개월 · 여</div>
+      <div class="traits"><span class="trait">공놀이를 좋아함</span><span class="trait">크기만크지 순둥이 그자체</span><span class="trait">사람도 너무너무 좋아해요</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>84</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>16</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="줄리엣" data-search="줄리엣 시츄 5년 여아 얌전한 성격 애칭은 &quot;쮸&quot; 사람 곁을 좋아함">
+  <a href="../pets/pet-imported-548/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-548/0.jpg" alt="줄리엣" loading="lazy"></div>
+    <div class="card-body">
+      <h3>줄리엣</h3>
+      <div class="meta">시츄 · 5년 · 여</div>
+      <div class="traits"><span class="trait">얌전한 성격</span><span class="trait">애칭은 &quot;쮸&quot;</span><span class="trait">사람 곁을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>120</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>16</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="구름이" data-search="구름이 아메리칸숏헤어 5년 여아 순하고 착함 허공 꾹꾹이 매니아 사람 손길을 좋아함">
+  <a href="../pets/pet-imported-510/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-510/0.jpg" alt="구름이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>구름이</h3>
+      <div class="meta">아메리칸숏헤어 · 5년 · 여</div>
+      <div class="traits"><span class="trait">순하고 착함</span><span class="trait">허공 꾹꾹이 매니아</span><span class="trait">사람 손길을 좋아함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>136</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>26</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="레이" data-search="레이 러시안블루 믹스 3년 여아 차분하고 단정함 혼자만의 시간을 좋아함 익숙해지면 다정함">
+  <a href="../pets/pet-imported-435/index.html">
+    <div class="card-photo"><img src="../photos/pet-imported-435/0.jpg" alt="레이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>레이</h3>
+      <div class="meta">러시안블루 믹스 · 3년 · 여</div>
+      <div class="traits"><span class="trait">차분하고 단정함</span><span class="trait">혼자만의 시간을 좋아함</span><span class="trait">익숙해지면 다정함</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>138</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>21</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="똘이" data-search="똘이 푸들 15살 남아 사람좋아함 성대수술함 노견이라 잠이많음 순함">
+  <a href="../pets/d1b6b81d-9d65-42ab-a3b9-7eb822b4ebfa/index.html">
+    <div class="card-photo"><img src="../photos/d1b6b81d-9d65-42ab-a3b9-7eb822b4ebfa/1.jpg" alt="똘이" loading="lazy"></div>
+    <div class="card-body">
+      <h3>똘이</h3>
+      <div class="meta">푸들 · 15살 · 남</div>
+      <div class="traits"><span class="trait">사람좋아함</span><span class="trait">성대수술함</span><span class="trait">노견이라 잠이많음</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>123</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>24</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="card" data-pet data-name="마루" data-search="마루 믹스견 생후 5개월 여아 모든게 궁금한 천방지축 사람만 보면 발라당 애교쟁이 주걱턱이 매력 뽀인뜨">
+  <a href="../pets/9a682e8e-4a9c-491c-9812-0d119d3070ee/index.html">
+    <div class="card-photo"><img src="../photos/9a682e8e-4a9c-491c-9812-0d119d3070ee/3.jpg" alt="마루" loading="lazy"></div>
+    <div class="card-body">
+      <h3>마루</h3>
+      <div class="meta">믹스견 · 생후 5개월 · 여</div>
+      <div class="traits"><span class="trait">모든게 궁금한 천방지축</span><span class="trait">사람만 보면 발라당 애교쟁이</span><span class="trait">주걱턱이 매력 뽀인뜨</span></div>
+      <div class="react"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5s-6.6-4.1-6.6-8.6A3.7 3.7 0 0 1 12 9a3.7 3.7 0 0 1 6.6 2.9c0 4.5-6.6 8.6-6.6 8.6z"/></svg>107</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2H9.2L5 19.8V4.5z"/></svg>27</span></div>
+    </div>
+  </a>
+</article>
+</div>
+</main>
+<footer>
+  <div class="wrap">© 2026 강아지보호소 품으로</div>
+</footer>
+<div class="callbar">
+  <a class="call-adopt" href="tel:05054641004"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지입양<small>0505-464-1004</small></span></a>
+  <a class="call-rehome" href="tel:05057070401"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.7 10.8c.9 1.7 2.2 3.2 3.9 4.3l2-2c.3-.3.8-.4 1.2-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h4.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .9-.3 1.2l-2 2z"/></svg><span>강아지파양입소<small>0505-707-0401</small></span></a>
+</div>
+</body>
+</html>

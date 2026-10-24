@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Pum shelter mark">
+  <defs>
+    <linearGradient id="g" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#3a7a58"/>
+      <stop offset="100%" stop-color="#2f6b4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#g)"/>
+  <circle cx="50" cy="54" r="36" fill="#fffdf9"/>
+  <ellipse cx="50" cy="58" rx="22" ry="18" fill="#f4efe6" stroke="#241c16" stroke-width="2.4"/>
+  <ellipse cx="36" cy="50" rx="8" ry="12" fill="#ebe3d4" stroke="#241c16" stroke-width="2.2"/>
+  <ellipse cx="64" cy="50" rx="8" ry="12" fill="#ebe3d4" stroke="#241c16" stroke-width="2.2"/>
+  <circle cx="44" cy="56" r="2.2" fill="#241c16"/>
+  <circle cx="56" cy="56" r="2.2" fill="#241c16"/>
+  <ellipse cx="50" cy="62" rx="5.5" ry="4" fill="#e15a32"/>
+  <path d="M43 67 Q50 72 57 67" fill="none" stroke="#241c16" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M50 22 L54 30 L62 30 L56 36 L58 44 L50 39 L42 44 L44 36 L38 30 L46 30 Z" fill="#e15a32" opacity="0.95"/>
+</svg>
